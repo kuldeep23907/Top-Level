@@ -23,10 +23,10 @@ Technically speaking, this evolution of IBISA is based on a [microservice archit
 
 ## Organisation of the project
 The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
-* the Risk Sharing (RSC) project;
-* the Watcher Community WCC) project.
+* the Risk Sharing Community (RSC) project;
+* the Watcher Collaborative Community (WCC) project.
 
-### Roles in the RSC
+### Roles in the RSC (Risk Sharing Community)
 On the RSC side
 * the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one per farmer but can be  several);
 * the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessemnt, the watcher key and the percentage of loss;
@@ -44,7 +44,7 @@ IBISA could offer consulting services to the above to take advantage of IBISA's 
 
 In the long-term future, additional risk-sharing and community watching may be added covering many kinds of calamity: road infrastructure watching, flood watching, natural calamities watching, drought warning etc.
 
-### Roles in the WCC
+### Roles in the WCC (Watcher Collaborative Community)
 On the WCC side, the principles that support this WCC community are:
 * the tools are available open source for free use. A community of developers is encouraged;
 * all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
