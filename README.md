@@ -21,6 +21,12 @@ The fully decentralised approach using a double blockchain RSC-WCC is too far fr
 
 Technically speaking, this evolution of IBISA is based on a [microservice architecture] (https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any internal choices.
 
+# Organisation of the project
+The project is composed of 2 distinct projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
+* the Risk Sharing (RSC) project;
+* the Watcher Community WCC) project.
+
+## Roles in the RSC
 On the RSC side
 * the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one per farmer but can be  several);
 * the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessemnt, the watcher key and the percentage of loss;
@@ -38,6 +44,7 @@ IBISA could offer consulting services to the above to take advantage of IBISA's 
 
 In the long-term future, additional risk-sharing and community watching may be added covering many kinds of calamity: road infrastructure watching, flood watching, natural calamities watching, drought warning etc.
 
+## Roles in the WCC
 On the WCC side, the principles that support this WCC community are:
 * the tools are available open source for free use. A community of developers is encouraged;
 * all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
@@ -45,4 +52,5 @@ On the WCC side, the principles that support this WCC community are:
 *	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance (cf. case of the Morandi bridge collapse in Genoa, https://www.mdpi.com/2072-4292/11/12/1403/htm), agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain. When using the crowd-watching crop data, IBISA will contribute its version of "watchers reputation engine";
 * the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
 
-See "Additional readings" for more on the Earth Observation part. The blockchain part is work-in-progress.
+# Additional readings
+See "Additional readings" for more, on the Earth Observation sub-project. The blockchain part is work-in-progress.
