@@ -1,4 +1,4 @@
-# RSC-WCC Project
+# RSC-WCC Project Description
 This document is a work-in-progress draft. It describes the overall blockchain architecture of an open mutual risk-sharing project based on the same philosophy as IBISA, of which IBISA would be a simple external user. The components are (see drawings below):
 
 1. RSC (Risk-Sharing Community): one blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, group membership  (to be confirmed);
