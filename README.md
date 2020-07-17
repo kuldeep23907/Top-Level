@@ -17,4 +17,4 @@ The need and the opportunities are huge since there are more than 500 M smallhol
 
 The solution proposed by IBISA (Inclusive Blockchain Insurance using Space Assets) is to use the blockchain to share the risks and use human collective intelligence (crowd-watching) instead of machine algorithms to assess crop damages. This approach reduces drastically the costs for a potentially equal accuracy. However, it is only a first step: because the landscape it starts from is still empty, IBISA had to do eveything to convince existing actors, resulting in an immediately usable but monolithic architecture. The decentralised approach using a double blockchain RSC-WCC is too far from the current practices although it has a stronger growth potential. IBISA is in the landscape of RSC-WCC as can be seen in the following chart.
 
-![Overall RSC-WCC Architecture](20200717 RSC-WCC Overall Architecture.png)
+![Overall RSC-WCC Architecture](https://github.com/kvutien/Top-Level/commit/e40f841725ec128ba95a1322a1c007b2946dec9c#diff-f08be7c8f10f9090a90b509838efcfa9)
