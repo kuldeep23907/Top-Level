@@ -22,7 +22,7 @@ The following fully decentralised approach using a double blockchain RSC-WCC is 
 Technically speaking, this evolution of IBISA is based on a [microservice architecture] (https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any previous internal choices.
 
 ## Organisation of the project
-The project is composed of 2 distinct projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
+The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
 * the Risk Sharing (RSC) project;
 * the Watcher Community WCC) project.
 
