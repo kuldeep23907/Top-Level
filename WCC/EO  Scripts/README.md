@@ -4,16 +4,16 @@ date of writing: July 2020
 All EO scripts of ECC at the date of writing are for Google Earth Engine and are in the Git repository of GEE. Since the GEE repository is not meant for documentation, the descriptions of the scripts are moved here. For the most up-to-date source code, refer to the GEE repository.
 
 At the date of writing, 2 users are registered
-1. kvutien.yes@gmail.com
-2. ibisa.training@gmail.com
+1. `kvutien.yes@gmail.com`
+2. `ibisa.training@gmail.com`
 
-## GEE scripts in kvutien.yes@gmail.com
+## GEE scripts in `kvutien.yes@gmail.com`
 The GEE scripts do one or several of the following functions, mainly for MODIS, but also for  Sentinel-2 and Landsat-8:
 * display a satellite index on a map to "watch",
 * "chart" a time series of a satellite index 1 km around a point,
 * generate a "time lapse" of a satellite index over a large region.
 
-The account kvutien.yes@gmail.com "owns" 8 repositories and has "writer" access to a repository of `ibisa.training@gmail.com`
+The account `kvutien.yes@gmail.com` "owns" 8 repositories and has "writer" access to a repository of `ibisa.training@gmail.com`
 * `users/ibisa/common`: this repository cotains only GEE "modules" to be shared by other scripts. All functions are prefixed "exports"
   * `GPSpts`: contains the GPS coordinates of the points to watch or chart
   * `libs`: contains `chartLib`, `lapseLib` and `watchLib`, the slowly evolving code used by the generic scripts `watchNDVITamil`or `watchNDVINiger`or `chartNDVITamil`etc.
@@ -29,5 +29,5 @@ The account kvutien.yes@gmail.com "owns" 8 repositories and has "writer" access 
 
 The repositories `users/ibisa/common` and `users/ibisa/public` are shared publicly.
 
-## GEE scripts in ibisa.training.yes@gmail.com
-The account ibisa.training.yes@gmail.com "owns" 1 repository with code for training and for LinkedIn articles
+## GEE scripts in `ibisa.training.yes@gmail.com`
+The account `ibisa.training.yes@gmail.com` "owns" 1 repository with code for training and for LinkedIn articles
