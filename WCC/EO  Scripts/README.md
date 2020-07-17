@@ -27,7 +27,9 @@ The account `kvutien.yes@gmail.com` "owns" 8 repositories and has "writer" acces
 * `users/ibisa/Vietnam`: contains scripts equivalent to `users/ibisa/Niger` and `users/ibisa/TamilNadu` but less indexes
 * `users/ibisa/watchers`: contains test scripts, most of the time obsolete
 
-The repositories `users/ibisa/common` and `users/ibisa/public` are shared publicly.
+The repositories `users/ibisa/common` and `users/ibisa/public` are shared publicly. Their URL are
+* `git clone https://earthengine.googlesource.com/users/ibisa/public`
+* `git clone https://earthengine.googlesource.com/users/ibisa/common`
 
 ## GEE scripts in `ibisa.training.yes@gmail.com`
 The account `ibisa.training.yes@gmail.com` "owns" 1 repository with code for training and for LinkedIn articles
