@@ -1,7 +1,7 @@
 # RSC-WCC Overall Architecture
 This document is a work-in-progress draft. It describes the overall blockchain architecture of an open mutual risk-sharing system of which IBISA would be a simple external user. The components are (see drawings below):
 
-1. RSC (Ris-Sharing Community): one blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, group membership  (to be confirmed);
+1. RSC (Risk-Sharing Community): one blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, group membership  (to be confirmed);
 2. WCC (Watcher Collaborative Community): One blockchain-based vegetation loss assessment community, storing monthly information on location of the centre of group, date of assessment, watcher assessing, percentage of loss.
 
 The 2 blockchains are interoperable via Cosmos or PolkaDot. In the future, other loss assessment blockchains can join the community and their data may be used by other risk-sharing communities. The two communities RSC and WCC are open source. Any watcher can contribute a watching helper tool. Any enabler can develop its own application to read the blockchain and connect to its own customer database. The enabler is free to keep the record of contributions and the loss compensation calculation in a classical database or in another blockchain. A sample set of watcher helper tools developed in Google Earth Engine (GEE) are already available in GEE Git.
