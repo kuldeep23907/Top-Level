@@ -42,7 +42,7 @@ On the WCC side, the principles that support this WCC community are:
 * the tools are available open source for free use. A community of developers is encouraged;
 * all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
 * they contribute crowd-watching results to a WCC open blockchain database;
-•	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance , agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain. When using the crowd-watching crop data, IBISA will contribute its version of "watchers reputation engine";
+*	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance (cf. case of the Morandi bridge collapse in Genoa, https://www.mdpi.com/2072-4292/11/12/1403/htm), agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain. When using the crowd-watching crop data, IBISA will contribute its version of "watchers reputation engine";
 * the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
 
-See "Additional readings" for more on the Earth Observation part. The blockchain is in progress.
+See "Additional readings" for more on the Earth Observation part. The blockchain part is work-in-progress.
