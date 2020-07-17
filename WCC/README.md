@@ -7,3 +7,10 @@ Such services use cloud computing, cloud storage and parallel computing to take 
 Such free and easy-to-use services makes it possible to crowdsource photo-interpretation that used to be reserved to highly skilled specialists. In turn, low cost crowdsourcing opens the possibility of "TechForGood", using technology for humanitary purposes such as assessing by satellite crop losses in a transparent and neutral way, helping smallholder farmers to share their risks.
 
 Most crowdsourcing initiatives have been managed in a centralised way, with an authority that dispatches the work, collects the contributions, validates them, consolidates the results before making them available to the public. The WCC initiative leverages the blockchain technology to decentralise these tasks to achieve totally autonomous operations.
+
+## Overall diagram
+![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
+
+## WCC diagram
+![GitHub folder organisation WCC] (https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20WCC%20Overall%20Architecture.png)
+
