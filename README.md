@@ -19,3 +19,14 @@ The solution proposed by IBISA (_Inclusive Blockchain Insurance using Space Asse
 ## The long-term vision
 The fully decentralised approach using a double blockchain RSC-WCC is too far from the current practices and has to be implemented gradually, in the shadow of IBISA, although it has a stronger growth potential. IBISA has its place in the landscape of RSC-WCC, as can be seen in the following chart.. ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
+Technically speaking, this evolution of IBISA is based on a [microservice architecture] (https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any internal choices.
+
+On the RSC side
+* IBISA is a commercial company, providing a platform service to do mutual crop risk sharing;
+* any enabler can choose to make its own application or use IBISA platform;
+* same for classical insurers and re-insurers, adding their own risk modelling and risk management processes
+* same for classical  Financial Service Providers, using the transparent data for credit scoring the farmers
+* same for government agencies, to develop their own incentive programs
+* same for international donor institutions etc., etc.
+
+IBISA could offer services to the above to take advantage of IBISA's familiarity with the RSC blockchain and WCC blockchain.
