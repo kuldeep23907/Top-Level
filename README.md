@@ -22,11 +22,27 @@ The fully decentralised approach using a double blockchain RSC-WCC is too far fr
 Technically speaking, this evolution of IBISA is based on a [microservice architecture] (https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any internal choices.
 
 On the RSC side
+* the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one per farmer but can be  several);
+* the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessemnt, the watcher key and the percentage of loss;
+* the data crowdsourced by the community may be retrieved and **used by anybody**. IBISA is just one of these "anybody" users;
+
+User applications using  the RSC blockchain
 * IBISA is a commercial company, providing a platform service to do mutual crop risk sharing;
 * any enabler can choose to make its own application or use IBISA platform;
-* same for classical insurers and re-insurers, adding their own risk modelling and risk management processes
-* same for classical  Financial Service Providers, using the transparent data for credit scoring the farmers
-* same for government agencies, to develop their own incentive programs
-* same for international donor institutions etc., etc.
+* same for classical insurers and re-insurers, adding their own risk modelling and risk management processes;
+* same for classical  Financial Service Providers, using the transparent data for credit scoring the farmers based on the frequency of their losses and of their contributions to the common pot;
+* same for government agencies, to develop their own incentive programs  for best agricultural practices and gender diversity;
+* same for international donor institutions etc., etc. for example this crowdsourced data for the purpose of the ESA GDA (Global Development Assistance) program: deforestation watching, infrastructure monitoring (bridges), industrial environment survey, disaster analysis (cyclones, floods) … and for crop damage assessment.
 
-IBISA could offer services to the above to take advantage of IBISA's familiarity with the RSC blockchain and WCC blockchain.
+IBISA could offer consulting services to the above to take advantage of IBISA's familiarity with the RSC blockchain and WCC blockchain.
+
+In the long-term future, additional risk-sharing and community watching may be added covering many kinds of calamity: road infrastructure watching, flood watching, natural calamities watching, drought warning etc.
+
+On the WCC side, the principles that support this WCC community are:
+* the tools are available open source for free use. A community of developers is encouraged;
+* all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
+* they contribute crowd-watching results to a WCC open blockchain database;
+•	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance , agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain. When using the crowd-watching crop data, IBISA will contribute its version of "watchers reputation engine";
+* the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
+
+See "Additional readings" for more on the Earth Observation part. The blockchain is in progress.
