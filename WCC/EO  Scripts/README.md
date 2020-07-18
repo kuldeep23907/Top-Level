@@ -7,6 +7,9 @@ At the date of writing, 2 users are registered
 1. `kvutien.yes@gmail.com`
 2. `ibisa.training@gmail.com`
 
+## Overall libraries organisation
+![Overall WCC GEE libraries](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200718%20WCC%20Libraries.png)
+
 ## GEE scripts in `kvutien.yes@gmail.com`
 The GEE scripts do one or several of the following functions, mainly for MODIS, but also for  Sentinel-2 and Landsat-8:
 * display a satellite index on a map to "watch",
