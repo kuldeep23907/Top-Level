@@ -14,7 +14,7 @@ The GEE scripts do one or several of the following functions, mainly for MODIS, 
 * generate a "time lapse" of a satellite index over a large region.
 
 Overall libraries organisation
-![Overall WCC GEE libraries](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200718%20WCC%20Libraries.png)
+![Overall WCC GEE libraries](https://github.com/kvutien/Top-Level/blob/master/common/images/20200718%20WCC%20Libraries.png)
 
 The account `kvutien.yes@gmail.com` "owns" 8 repositories and has "writer" access to a repository of `ibisa.training@gmail.com`
 * `users/ibisa/common`: this repository cotains only GEE "modules" to be shared by other scripts. All functions are prefixed "exports"
