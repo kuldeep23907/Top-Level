@@ -17,7 +17,7 @@ Overall libraries organisation
 ![Overall WCC GEE libraries](https://github.com/kvutien/Top-Level/blob/master/common/images/20200718%20WCC%20Libraries.png)
 
 The account `kvutien.yes@gmail.com` "owns" 8 repositories and has "writer" access to a repository of `ibisa.training@gmail.com`
-* `users/ibisa/common`: this repository cotains only GEE "modules" to be shared by other scripts. All functions are prefixed "exports"
+* `users/ibisa/common`: this repository contains only GEE "modules" to be shared by other scripts. All functions are prefixed "exports"
   * `GPSpts`: contains the GPS coordinates of the points to watch or chart
   * `libs`: contains `chartLib`, `lapseLib` and `watchLib`, the slowly evolving code used by the generic scripts `watchNDVITamil`or `watchNDVINiger`or `chartNDVITamil`etc.
   * `spectrBands`: maps a same name, for example 'RED', to the names of the bands in MODIS and in Sentinel-2
