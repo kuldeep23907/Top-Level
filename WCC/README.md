@@ -16,8 +16,10 @@ Most crowdsourcing initiatives have been managed in a centralised way, with an a
 
 ## EO scripts
 There are 3 kinds of GEE scripts:
-* "watch" scripts: display on a map the median index(es) of the month and their median anomalies of the month. Watch script exist for MODIS, Sentinel 2 and Landsat 8. They exist for NDVI (Normalised Differential Vegetation Index) and NDWI (Normalised Differential Water Index) as defined by Gao (1996). They also exist for fAPAR (fraction of Absorbed Photosynthetically Active Radiation) and LAI (Leaf Area Index) on MODIS, for SMOS (Soil Moisture), for CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data)
+* "watch" scripts: display on a map the median index(es) of the month and their median anomalies of the month. Watch scripts exist for MODIS, Sentinel 2 and Landsat 8. They exist for NDVI (Normalised Differential Vegetation Index) and NDWI (Normalised Differential Water Index) as defined by Gao (1996). They also exist for fAPAR (fraction of Absorbed Photosynthetically Active Radiation) and LAI (Leaf Area Index) on MODIS, for SMOS (Soil Moisture), for CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data), SPI (Standard Precipitation Index), LST (Land Surface Temperature) and many other indexes available on GEE
 * "chart" scripts: calculate and display a time series of the same indexes as above. They also generate CSV files that can fee R-Studio scrioyts to calculate correlations and other statistical objects
 * "lapse" scripts: caclulate and display time lapses of the indexes. They are like charts because they visualise time series, and they are liek "watch" because they visualise the indexes and their  anomalies spatially
+
+"Watch" helper tools exist already as standalone Web apps and Android apps. "Chart" helper tools exist in July 2020 as code editor apps; they are being moved to web apps and Android apps. "Lapse" tools exist only as Code Editor because their outputs require GEE batch executables.
 
 ![Calling sequence of GEE scripts (July 2020)](https://github.com/kvutien/Top-Level/blob/master/common/images/20200718%20WCC%20Libraries.png) 
