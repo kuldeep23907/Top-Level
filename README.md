@@ -8,7 +8,7 @@ The 2 blockchains are interoperable via Cosmos or PolkaDot. In the future, other
 
 ## Executive Summary
 ### What is the pain? what is the solution?
-The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance. See IFAD report 2013 (https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013:
+The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance. See IFAD report 2013 (https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013 but at the same time the planets are aligned to create a cost-effective solution:
 * Smallholder farmers communities need to share risks and have done so for centuries, at village level;
 * With the Climate Change, the risk protection must be extended to a much larger scale, typically using insurance. Unfortunately, existing insurances have too high operations costs because they use business process practices of the 19th century, although digitalized for the 21st century. The brokering part is being handled by mobile technologies, but it covers only a minor part of the high administrative costs;
 * To lower assessment costs, insurers started using parametric approaches using Earth Observation data, but the existing algorithms are either multi-factorial and expensive or use a single factor and give disappointing results on the field;
