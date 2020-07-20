@@ -8,7 +8,7 @@ The 2 blockchains are interoperable via Cosmos or PolkaDot. In the future, other
 
 ## Executive Summary
 ### What is the pain? what is the solution?
-The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance. See IFAD report 2013 (https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013 but at the same time the planets are aligned to create a cost-effective solution:
+The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance. See ![IFAD report 2013](https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013 but at the same time the planets are aligned to create a cost-effective solution:
 * Smallholder farmers communities need to share risks and have done so for centuries, at village level;
 * With the Climate Change, the risk protection must be extended to a much larger scale, typically using insurance. Unfortunately, existing insurances have too high operations costs because they use business process practices of the 19th century, although digitalized for the 21st century. The brokering part is being handled by mobile technologies, but it covers only a minor part of the high administrative costs;
 * To lower assessment costs, insurers started using parametric approaches using Earth Observation data, but the existing algorithms are either multi-factorial and expensive or use a single factor and give disappointing results on the field;
@@ -19,7 +19,7 @@ The solution proposed by IBISA (_Inclusive Blockchain Insurance using Space Asse
 ### The long-term vision
 The following fully decentralised approach using a double blockchain RSC-WCC is too far from the current practices and therefore has to be implemented gradually, in the shadow of IBISA, although it has a stronger growth potential. IBISA has its place in the global landscape of RSC-WCC, as can be seen in the following chart.. ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
-Technically speaking, this evolution of IBISA is based on a [microservice architecture] (https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any previous internal choices.
+Technically speaking, this evolution of IBISA is based on a ![microservice architecture](https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any previous internal choices.
 
 ## Organisation of the project
 The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
