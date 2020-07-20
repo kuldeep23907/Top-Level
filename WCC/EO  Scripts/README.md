@@ -1,9 +1,9 @@
 # WCC Earth Observation scripts
 date of writing: _July 2020_
 
-All EO scripts of ECC at the date of writing are for Google Earth Engine and are in the Git repository of GEE. Since the GEE repository is not meant for documentation, the descriptions of the scripts are moved here. For the most up-to-date source code, refer to the GEE repository.
+All EO scripts of ECC at the date of writing are for Google Earth Engine and are in the Git repository of GEE. Since the GEE repository is not adapted for documentation, contrary to a Jupyter notebook, the descriptions of the scripts are moved here. For the most up-to-date source code, refer to the GEE repository.
 
-At the date of writing, 2 users are registered
+At the date of writing, 2 GEE users are registered
 1. `kvutien.yes@gmail.com`
 2. `ibisa.training@gmail.com`
 
