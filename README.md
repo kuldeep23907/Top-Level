@@ -28,8 +28,8 @@ The project is composed of 2 distinct sub-projects. Each of them is in a distinc
 
 ### Roles in the RSC (Risk Sharing Community)
 On the RSC side
-* the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one per farmer but can be  several);
-* the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessemnt, the watcher key and the percentage of loss;
+* the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one plot of field per farmer but can be several);
+* the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessment, the watcher key and the percentage of loss;
 * the data crowdsourced by the community may be retrieved and **used by anybody**. IBISA is just one of these "anybody" users;
 
 User applications using  the RSC blockchain
