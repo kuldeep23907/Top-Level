@@ -9,9 +9,9 @@ At the date of writing, 2 GEE users are registered
 
 ## GEE scripts in `kvutien.yes@gmail.com`
 The GEE scripts do one or several of the following functions, mainly for MODIS, but also for  Sentinel-2 and Landsat-8:
-* display a satellite index on a map to "watch",
-* "chart" a time series of a satellite index 1 km around a point,
-* generate a "time lapse" of a satellite index over a large region.
+* display a satellite index spatially on a map to "watch",
+* "chart" a satellite index evolution in time as a time series series,
+* generate a "time lapse" over a large region, to view the index both spatially and in time.
 
 Overall libraries organisation
 ![Overall WCC GEE libraries](https://github.com/kvutien/Top-Level/blob/master/common/images/20200718%20WCC%20Libraries.png)
