@@ -1,5 +1,5 @@
 # RSC-WCC Project Description
-This document is a work-in-progress draft. It describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but here IBISA would be a simple external user. The components are (see drawings below):
+This document is a work-in-progress draft. It describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but here IBISA would be a simple external user of RSC-WCC data. The components are (see drawings below):
 
 1. RSC (Risk-Sharing Community): a blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, group membership  (to be confirmed);
 2. WCC (Watcher Collaborative Community): a blockchain-based vegetation loss assessment community, storing information on location of the centre of group, date of (monthly) assessment, watcher assessing, percentage of loss.
