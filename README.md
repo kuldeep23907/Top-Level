@@ -40,7 +40,7 @@ User applications using  the RSC blockchain
 * same for government agencies, to develop their own incentive programs  for best agricultural practices and gender diversity;
 * same for international donor institutions etc., etc. for example this crowdsourced data for the purpose of the ESA GDA (Global Development Assistance) program: deforestation watching, infrastructure monitoring (bridges), industrial environment survey, disaster analysis (cyclones, floods) … and for crop damage assessment.
 
-IBISA could offer consulting services to the above to take advantage of IBISA's familiarity with the RSC blockchain and WCC blockchain.
+IBISA could also offer consulting services to the above to take advantage of IBISA's familiarity with the RSC blockchain and WCC blockchain.
 
 In the long-term future, additional risk-sharing and community watching may be added covering many kinds of calamity: road infrastructure watching, flood watching, natural calamities watching, drought warning etc.
 
@@ -53,4 +53,4 @@ On the WCC side, the principles that support this WCC community are:
 * the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
 
 ## Additional readings
-See "Additional readings" for more, on the Earth Observation sub-project. The blockchain part is work-in-progress.
+See !["Additional readings"](https://github.com/kvutien/Top-Level/blob/master/WCC/Additional%20readings.md) for more, on the Earth Observation sub-project. The blockchain part is work-in-progress.
