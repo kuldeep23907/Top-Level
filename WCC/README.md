@@ -1,6 +1,6 @@
 # The Watcher Collaborative Community
 
-The Watcher Collaborative Community (WCC) takes advantage of the 21st century Earth Observation services such as _![Google Earth Engine](https://code.earthengine.google.com/) (Google)_ and Sentinel _![EO-browser](https://apps.sentinel-hub.com/eo-browser/) (Sinergise)_, that are made available at no cost to the public for non-commercial uses. 
+The Watcher Collaborative Community (WCC) takes advantage of the 21st century Earth Observation services such as _[Google Earth Engine](https://code.earthengine.google.com/) (Google)_ and Sentinel _[EO-browser](https://apps.sentinel-hub.com/eo-browser/) (Sinergise)_, that are made available at no cost to the public for non-commercial uses. 
 
 Such services use cloud computing, cloud storage and parallel computing to take care of the Earth Observation computing chores such as filtering individual satellite images by location and by date, compositing them into larger images, managing resolution scales, applying image processing algorithms, calculating statistics on pixels, managing the display etc.
 
