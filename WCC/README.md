@@ -12,7 +12,7 @@ Most crowdsourcing initiatives have been managed in a centralised way, with an a
 ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
 ## WCC diagram
-![GitHub folder organisation WCC](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20WCC%20Github%20Folders.png)
+![GitHub folder organisation WCC](https://github.com/kvutien/Top-Level/blob/master/common/images/20200717%20WCC%20Github%20Folders.png)
 
 ## EO scripts
- 
+![Calling sequence of EO scripts (July 2020)](https://github.com/kvutien/Top-Level/blob/master/common/images/20200718%20WCC%20Libraries.png) 
