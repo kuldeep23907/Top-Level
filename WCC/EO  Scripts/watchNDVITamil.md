@@ -80,7 +80,7 @@ var visuIndNDVI = visus[0], visuAnoNDVI = visus[1],
 ```
 Here also, due to the limitations of JavaScript, the 5 variables returned by this function are bundled in a single returned array.
 ### Initialise the satellite image data
-The next section of code calls the library module `initImg()` to define the satellite data that GEE will retrieve and calculate the indexes. This module is independent of the satellite source of data, be it MODIS, Sentinel 2 or Landsat 8. With a small change it can also handle hybrid sources such as CHIRPS (rainfall), SPI (drought) etc.
+The next section of code calls the library module `initImg()` to define the satellite data that GEE will retrieve and calculate the indexes. This module is independent of the satellite source of data, be it MODIS, Sentinel 2 or Landsat 8, but is specialised for NDVI and NDWI calculation. With a small change it can also do the same for hybrid sources such as CHIRPS (rainfall), SPI (drought), SMOS (Soil Moisture), deforestation, flood etc.
 ```javascript
 //  -initImg: image collections to be used, with NDVI and NDWI bands added
 //    this is the only code that is specific to a satellite
@@ -89,4 +89,45 @@ var bMODIS = require ('users/ibisa/common:spectrBands/bandsMODIS');
 var imgs = libIBISA.initImg(MV, displayGroups2, bMODIS.NIR, bMODIS.RED, bMODIS.SWIR, studyRange);
 var geoBoundedImgs = imgs[0], geoDateBoundedImgs = imgs[1];
 ```
-The module `initImg()` is given the `ImageCollection` in a broadest definition range, and returns 2 restricted `ImageCollection` with only a few spectral bands; one is bounded spatially and the other is bounded both spatially and by date.
+The module `initImg()` is given the `ImageCollection` in a broadest definition range `MV`, and returns 2 restricted `ImageCollection` with only a few spectral bands; one is bounded spatially and the other is bounded both spatially and by date. While so doing, it also adds to each image in the `Imagecollection` a band `NDVI`and a band `NDWI`
+
+## Computation of index anomalies
+The code is 
+```javascript
+//1.-Make 12-mth list of lifetime mean & stdDev over entire lifetime, for NDVI & NDWI
+var msdNDVIByMonth = libIBISA.mStdIndexByMonth ('NDVI', geoBoundedImgs);
+var msdNDWIByMonth = libIBISA.mStdIndexByMonth ('NDWI', geoBoundedImgs);
+
+//  if applicable, add xSigma to geoDateBoundedImgs and chart
+
+//2.---Calculate the NDVI-NDWI anomalies of all images in geoDateBoundedImgs
+var withAnomaly = geoDateBoundedImgs
+        .map(libIBISA.subtractIndexMean('NDVI', msdNDVIByMonth))
+        .map(libIBISA.subtractIndexMean('NDWI', msdNDWIByMonth));
+```
+In the library function `mStdIndexByMonth()`we calculate an array of 12 images, one image per month of the year. Each image has 2 bands:
+* the mean value of the spectral band given as argument, calculated over the `ImageCollection` also in argument, in this case it is done over the whole lifetime of the satellite archive without date limitation;
+* the standard deviation of the same spectral band.
+
+We do so once for the NDVI (`msdNDVIByMonth`) and once for the NDWI (`msdNDWIByMonth`).
+
+Finally, we calculate the anomalies of NDVI and NDWI and add thema as additional bands to each image of the `ImageCollection` spatially and date-restricted. Now all calculations are done. We are ready to display.
+## Display spatially the groups' indexes and anomalies
+This part is composed of
+* prepare the content of the second pane;
+* define the components of the split panel;
+* display the split panel.
+### Prepare the content of the 2nd pane
+The code is 
+```javascript
+// Ask GEE to make a 2nd map area named linkedMap
+var linkedMap = ui.Map();
+// display the selector dropdown box in the linked Map
+var selection = 0, boxPosition = 'top-left';
+var pt2watch = libIBISA.objValue(pts, selection);
+var watchLib = require ('users/ibisa/common:libs/watchLib');
+watchLib.fillLinkedMap(linkedMap, displayGroups2, studyRange, visuRGB);
+watchLib.pt2watchSelector(linkedMap, boxPosition, pts, selection, pt2watch, zoomLevel
+    , firstRun, withAnomaly, displayGroups, displayGroups2,
+        visuIndNDVI, visuIndNDWI, visuAnoNDVI, visuAnoNDWI);
+```
