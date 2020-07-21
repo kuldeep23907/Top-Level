@@ -43,7 +43,7 @@ var studyYear = 2020; var studyMonth = 6, rangeYear = 0.085;   // <--- 1 month =
 var stRange = libIBISA.initDates(studyYear, studyMonth, rangeYear);
 var startStudyDate = stRange[0], endStudyDate = stRange[1], studyRange = stRange[2];
 ```
-The function `initDates()` is used by many watcher tools, and therefore is in the common library. Due to the limitations of JavaScript, the 3 variables returned by this function are bundeled in a single returned array.
+The function `initDates()` is used by many watcher tools, and therefore is in the common library. Due to the limitations of JavaScript, the 3 variables returned by this function are bundled in a single returned array.
 ### Initialise centres of groups to watch
 The next section of code initialises the GPS coordinates of the centres of the groups to watch.
 ```javascript
@@ -78,4 +78,15 @@ var visus = libIBISA.initVis();
 var visuIndNDVI = visus[0], visuAnoNDVI = visus[1],
       visuIndNDWI = visus[2], visuAnoNDWI =visus[3], visuRGB =visus[4];
 ```
-here also, due to the limitations of JavaScript, the 5 variables returned by this function are bundeled in a single returned array.
+Here also, due to the limitations of JavaScript, the 5 variables returned by this function are bundled in a single returned array.
+### Initialise the satellite image data
+The next section of code calls the library module `initImg()` to define the satellite data that GEE will retrieve and calculate the indexes. This module is independent of the satellite source of data, be it MODIS, Sentinel 2 or Landsat 8. With a small change it can also handle hybrid sources such as CHIRPS (rainfall), SPI (drought) etc.
+```javascript
+//  -initImg: image collections to be used, with NDVI and NDWI bands added
+//    this is the only code that is specific to a satellite
+var MV = ee.ImageCollection ('MODIS/006/MOD09A1'); //MOD09A1.006 Terra Surface Reflectance 8-Day Global 500m
+var bMODIS = require ('users/ibisa/common:spectrBands/bandsMODIS');
+var imgs = libIBISA.initImg(MV, displayGroups2, bMODIS.NIR, bMODIS.RED, bMODIS.SWIR, studyRange);
+var geoBoundedImgs = imgs[0], geoDateBoundedImgs = imgs[1];
+```
+The module `initImg()` is given the `ImageCollection` in a broadest definition range, and returns 2 restricted `ImageCollection` with only a few spectral bands; one is bounded spatially and the other is bounded both spatially and by date.
