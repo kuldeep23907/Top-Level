@@ -10,3 +10,36 @@ When launched, the spatial display shows 2 panes that can be resized to show mor
 * the right pane shows the groups to assess loss. Each group is represented by its center (a black dot) and a circle of 1 km radius around the black dot showing the NDVI anomaly or the NDWI anomaly. This circle is surrounded by another of 3 km radius that displays the actual value of the index (NDVI and NDWI) inside this area. ![screen display](https://github.com/kvutien/Top-Level/blob/master/common/images/20200628%20Tamil%20Nadu%20layers.jpg)
 * The left panel has a specific widget that is a dropdown box to choose the group on which to center the display;
 * The right panel has a specific widget that is the scale of colors of the anomaly, in addition to the other GEE widgets such as the "layers" display menu, the buttons to choose the background ("plan" or "satellite"). The "zoom" button acts only the right panel and is therefore not applicable in this split screen display.
+
+The code of `watchNDVITamil`is composed of 3 parts:
+1. initialisation of watching parameters
+2. calculation of the indexes and their anomalies
+3. management of the split display and the choice of a  group to center on
+
+## Initialisation of watching parameters
+The code is 
+```javascript
+/* watchNDVITamil,
+*   URL https://code.earthengine.google.com/?scriptPath=users/ibisa/public:watchNDVITamil
+*   Calculates and displays NDVI & NDWI + anomalies for many locations. MODIS data
+*   Rewritten version designed to separate calculations and selection for display
+*   v0.2: display split panel: Sentinel RGB on left and Anomalies on the right
+*   v1.0: complete refactor, make initImg agnostic of satellite
+*  -> 2020-07-03, (c) IBISA-2020, author Vu Tien Khang */
+//---------------------
+//  main code - Parameters
+var firstRun = true;
+var xGauss = [1, 1.3, 1.96, 3];  // [68%, 80%, 95%, 99.7%] chart parameters, not used here
+var severity = 1, xSigma = xGauss[severity];    //  used to call function addxSigmaIndex
+```
+* `firsRun` is used to display the anomaly color scale only once in yhe right pane, at first run;
+* `xGauss`and `severity`are used when charting, to set the min and max thresholds of the index and its anomaly calculated over the lifetime of the satellite. Watchers use these thresholds to assess the severity of crop losses
+
+The next section of code initialises the date range for the study. Parameters are given in the natural way of thinking of a watcher,  which is the month to watch and the duration of the period to consider.
+```javascript
+//  -initDates: Calculations from last day of studyMonth and count back 'rangeYear' years
+var libIBISA = require ('users/ibisa/common:lib');
+var studyYear = 2020; var studyMonth = 6, rangeYear = 0.085;   // <--- 1 month = 0.085 year
+var stRange = libIBISA.initDates(studyYear, studyMonth, rangeYear);
+var startStudyDate = stRange[0], endStudyDate = stRange[1], studyRange = stRange[2];
+```
