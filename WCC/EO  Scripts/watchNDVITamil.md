@@ -111,7 +111,7 @@ In the library function `mStdIndexByMonth()`we calculate an array of 12 images, 
 
 We do so once for the NDVI (`msdNDVIByMonth`) and once for the NDWI (`msdNDWIByMonth`).
 
-Finally, we calculate the anomalies of NDVI and NDWI and add thema as additional bands to each image of the `ImageCollection` spatially and date-restricted. Now all calculations are done. We are ready to display.
+Finally, we calculate the anomalies of NDVI and NDWI and add them as additional bands to each image of the `ImageCollection` spatially and date-restricted. Now all calculations are done. We are ready to display.
 ## Display spatially the groups' indexes and anomalies
 This part is composed of
 * prepare the content of the second pane;
