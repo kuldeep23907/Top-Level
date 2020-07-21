@@ -71,7 +71,7 @@ var displayGroups = areas[0], displayGroups2 = areas[1];
 ```
 `displayGroups` is the circle of radius `radius` that displays the anomaly, while `displayGroups2` is the circle centred on the same point of radius triple that displays the index of the month
 ### Initialise the visualisation parameters of the indexes and the anomalies
-The next section of code calls the library module `initVis()` to set the visualisation parameters of `addLayer()`. The range of colours is in the common library. Doing so currently, we assume it is the same for Tamil Nadu, Niger, Vietnam, because the vegetation is more or less the same and because what is of interest is the anomaly. Eventually, each region can have specific ranges and in such cases the module `initVis()` will be moved to `GPSPts/Tamil` etc.
+The next section of code calls the library module `initVis()` to set the visualisation parameters of `addLayer()`. The ranges of colours are in the common library. Doing so currently, we assume these ranges are the same for Tamil Nadu, Niger, Vietnam, because the vegetation is more or less the same and because what is of interest is the anomaly and the gravity of damages. Eventually, each region can have different specific ranges. In such cases the module `initVis()` will be moved to `GPSPts/TamilNadu`, `GPSPts/Niger`  etc.
 ```javascript
 //  -initVis: Visualisation parameters
 var visus = libIBISA.initVis();
