@@ -122,12 +122,18 @@ The code is
 ```javascript
 // Ask GEE to make a 2nd map area named linkedMap
 var linkedMap = ui.Map();
+var watchLib = require ('users/ibisa/common:libs/watchLib');
+watchLib.fillLinkedMap(linkedMap, displayGroups2, studyRange, visuRGB);
 // display the selector dropdown box in the linked Map
 var selection = 0, boxPosition = 'top-left';
 var pt2watch = libIBISA.objValue(pts, selection);
-var watchLib = require ('users/ibisa/common:libs/watchLib');
-watchLib.fillLinkedMap(linkedMap, displayGroups2, studyRange, visuRGB);
 watchLib.pt2watchSelector(linkedMap, boxPosition, pts, selection, pt2watch, zoomLevel
     , firstRun, withAnomaly, displayGroups, displayGroups2,
         visuIndNDVI, visuIndNDWI, visuAnoNDVI, visuAnoNDWI);
 ```
+In the code, we ask  GEE to prepare memory for a 2nd map area called `linkedMap`. We call the library function `fillLinkedMap()`to fill it with Sentinel 2 image restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
+> Note: this function `fillLinkedMap` is not a good design because (1) it is hard-coded for Sentinel 2 and (2) it has only 2 instructions so is not worth the overhead of setting up a call. We'll certainly change this code.
+
+Then we preapre the display of the dropdown selector widget: set the default selection to the first item, set the position of the widget at top-left  of the pane, set the default point to watch to correspond to the default selection and call the library function `pt2watchSelector()`
+
+> Note: the variable `pt2watch` as argument is redundant with `pts`and `selection`. We'll certainly change this code.
