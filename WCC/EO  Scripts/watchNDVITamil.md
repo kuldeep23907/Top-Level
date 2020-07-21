@@ -1,4 +1,4 @@
-# Description of the GEE script watchNDVITamil
+# Description of the GEE script `watchNDVITamil`
 
 The code `watchNDVITamil.js`that is stored in  this GitHub folder is meant only as illustration. This version worked in July 20, 2020 in the GEE Code Editor. For the most up-to-date code, please refer to the link (https://code.earthengine.google.com/?scriptPath=users%2Fibisa%2Fpublic%3AwatchNDVITamil)
 
