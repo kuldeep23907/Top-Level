@@ -33,4 +33,13 @@ function updateMap(mapToChange, pts, zoomLevel, firstRun, visuAnoNDVI){
   };
 }; // end of function updateMap
 ```
-We observe that  the outer function serves only as a carrier of the calling arguments in its scope. It returns an anonymous function that does the actual job. We will meet again this programming trick when mapping functions that need more than one argument on `ImageCollections` and on arrays, for example the functions `addNDVI`, `addNDWI`, `subtractIndexMean`etc.
+We observe that the outer function serves only as a carrier of the calling arguments in its scope. It returns an anonymous function that does the actual job. We will meet again this programming trick when mapping functions that need more than one argument on `ImageCollections` and on arrays, for example the functions `addNDVI`, `addNDWI`, `subtractIndexMean`etc.
+
+As far as the actual tasks of `updateMap`, they are:
+1. center the display on the point selected in the dropdown box: `mapToChange.centerObject(pts[selection], zoomLevel);`
+2. if it's the first run, call the libary function `overlayLegend()` to display the  scale of colours of the anomaly
+3. add a black dot on both panes at the location of the point with a label that is the name of the point, the key of  `pts` the array of pairs `key`:`value`
+```javascript
+  mapToChange.addLayer(pts[selection], {}, selection.slice(0,5));
+  Map.addLayer(ee.FeatureCollection(pts[selection]), {}, selection.slice(0,5));
+```
