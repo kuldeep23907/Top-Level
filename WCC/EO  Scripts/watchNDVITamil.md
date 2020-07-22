@@ -133,16 +133,32 @@ var imageS2 = ee.ImageCollection('COPERNICUS/S2')
 // display RGB least clouds of the month on the linkedMap
 linkedMap.addLayer(imageS2, visuRGB, 'Sentinel 2');
 ```
-In the code, we draw in the right pane the indexes and anomalies of group, as well as the anomaly colour scale. We ask GEE to prepare memory for a 2nd map area called `linkedMap`. We fill it with the least cloudy Sentinel 2 image of the month, restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
+In the above code, we draw in the right pane the indexes and anomalies of group, as well as the anomaly colour scale. We ask GEE to prepare memory for a 2nd map area called `linkedMap`. We fill it with the least cloudy Sentinel 2 image of the month, restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
 
 ```javascript
 // display the selector dropdown box in the linked Map
 var selection = 0, boxPosition = 'top-left';
-var pt2watch = libIBISA.objValue(pts, selection);
 var watchLib = require ('users/ibisa/common:libs/watchLib');
 watchLib.pt2watchSelector(linkedMap, boxPosition, pts, selection, zoomLevel
     , firstRun, visuAnoNDVI);
 ```
-Then we prepare the display of the dropdown selector widget: set the default selection to the first item, set the position of the widget at top-left of the pane, set the default point to watch to correspond to the default selection and call the library function `pt2watchSelector()`
+Then we prepare the display of the dropdown selector widget: set the default selection to the first item, set the position of the widget at top-left of the pane, set the default point to watch to correspond to the default selection and call the library function `pt2watchSelector()` to display the dropdown box and to react on user choice.
 
-> Note: the variable `pt2watch` as argument is redundant with `pts`and `selection`. We'll certainly change this code.
+Finally we ask GEE to display the split panels.
+```javascript
+// Ask GEE to generate a linked area of the 2 map areas
+var linker = ui.Map.Linker([ui.root.widgets().get(0), linkedMap]);
+// Ask GEE to define the split panel from the 2 parts of the linker
+var splitPanel = ui.SplitPanel({
+  firstPanel: linker.get(1),
+  secondPanel: linker.get(0),
+  orientation: 'horizontal',
+  wipe: true,
+  style: {stretch: 'both'}
+});
+// Ask GEE to replace the browser default list of widgets with this split panel
+ui.root.widgets().reset([splitPanel]);
+//  end of main code ----------------------------------------
+```
+
+
