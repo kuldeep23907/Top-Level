@@ -134,7 +134,7 @@ var imageS2 = ee.ImageCollection('COPERNICUS/S2')
 linkedMap.addLayer(imageS2, visuRGB, 'Sentinel 2');
 ```
 In the above code, we draw in the right pane the indexes and anomalies of group, as well as the anomaly colour scale. We ask GEE to prepare memory for a 2nd map area called `linkedMap`. We fill it with the least cloudy Sentinel 2 image of the month, restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
-
+### Define the components of the split panel
 ```javascript
 // display the selector dropdown box in the linked Map
 var selection = 0, boxPosition = 'top-left';
@@ -143,7 +143,7 @@ watchLib.pt2watchSelector(linkedMap, boxPosition, pts, selection, zoomLevel
     , firstRun, visuAnoNDVI);
 ```
 Then we prepare the display of the dropdown selector widget: set the default selection to the first item, set the position of the widget at top-left of the pane, set the default point to watch to correspond to the default selection and call the library function `pt2watchSelector()` to display the dropdown box and to react on user choice.
-
+### Display the split panel
 Finally we ask GEE to display the split panels.
 ```javascript
 // Ask GEE to generate a linked area of the 2 map areas
