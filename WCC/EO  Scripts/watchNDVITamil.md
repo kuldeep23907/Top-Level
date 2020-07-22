@@ -132,6 +132,10 @@ var imageS2 = ee.ImageCollection('COPERNICUS/S2')
         .filterDate(studyRange).sort('CLOUDY_PIXEL_PERCENTAGE',false);
 // display RGB least clouds of the month on the linkedMap
 linkedMap.addLayer(imageS2, visuRGB, 'Sentinel 2');
+```
+In the code, we draw in the right pane the indexes and anomalies of group, as well as the anomaly colour scale. We ask GEE to prepare memory for a 2nd map area called `linkedMap`. We fill it with the least cloudy Sentinel 2 image of the month, restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
+
+```javascript
 // display the selector dropdown box in the linked Map
 var selection = 0, boxPosition = 'top-left';
 var pt2watch = libIBISA.objValue(pts, selection);
@@ -139,8 +143,6 @@ var watchLib = require ('users/ibisa/common:libs/watchLib');
 watchLib.pt2watchSelector(linkedMap, boxPosition, pts, selection, zoomLevel
     , firstRun, visuAnoNDVI);
 ```
-In the code, we draw in the right pane the indexes and anomalies of gourp, as well as the anomaly colour scale. We ask GEE to prepare memory for a 2nd map area called `linkedMap`. We fill it with the least cloudy Sentinel 2 image of the month, restricted spatially to `displayGroups2` and temporally to `studyRange`, in True Colors.
-
 Then we prepare the display of the dropdown selector widget: set the default selection to the first item, set the position of the widget at top-left of the pane, set the default point to watch to correspond to the default selection and call the library function `pt2watchSelector()`
 
 > Note: the variable `pt2watch` as argument is redundant with `pts`and `selection`. We'll certainly change this code.
