@@ -37,7 +37,7 @@ We observe that the outer function serves only as a carrier of the calling argum
 
 As far as the actual tasks of `updateMap`, they are:
 1. center the display on the point selected in the dropdown box: `mapToChange.centerObject(pts[selection], zoomLevel);`
-2. if it's the first run, call the libary function `overlayLegend()` to display the  scale of colours of the anomaly
+2. if it's the first run, call the libary function `legendOverlay()` to display the  scale of colours of the anomaly
 3. add a black dot on both panes (`mapToChange`and `Map`) at the location of the point, associated with a label that is the name of the point, the key of  `pts` the array of pairs `key`:`value`
 ```javascript
   mapToChange.addLayer(pts[selection], {}, selection.slice(0,5));
