@@ -16,6 +16,8 @@ The code of `watchNDVITamil`is composed of 3 parts:
 2. calculation of the indexes and their anomalies
 3. management of the split display and the choice of a  group to center on
 
+The calling structure is as follows: ![calls of watchNDVITamilNadu](https://github.com/kvutien/Top-Level/blob/master/common/images/20200722%20watchNDVITamilNadu%20calls.png)
+
 ## Initialisation of watching parameters
 The code is 
 ```javascript
