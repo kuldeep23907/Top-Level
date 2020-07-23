@@ -1,6 +1,8 @@
 # The GEE script `legendOverlay`that creates a scale of colours as legend on the Map
 This function is taken from the blog `Open Geo Blog: https://mygeoblog.com/2016/12/09/add-a-legend-to-to-your-gee-map/)`.
-It draws a vertical scale of colours that is a gradual change between `min` and `max` of the colour palette given as argument in `visuAnoNDVI`. This scale is actually a GEE `thumbnail`image that is generated based on the underlying equivalent latitudes of the matching point the map on which the scale is drawn.
+It draws a vertical scale of colours that is a gradual change between `min` and `max` of the colour palette given as argument in `visuAnoNDVI`. 
+
+For  this scale to remain the same when the image is panned and zoomed, this scale is actually a GEE `thumbnail`image that is generated based on the underlying equivalent latitudes of the matching point the map on which the scale is drawn.
 
 In practice, it is composed of the following steps:
 * define the widget panel `legend`
