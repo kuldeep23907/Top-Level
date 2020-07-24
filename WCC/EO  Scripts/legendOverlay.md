@@ -69,15 +69,16 @@ Here, top and bottom paddings are 8 pixels; right and left paddings are 15 pixel
   legend.add(panel);
 ```
 ## Step 5: create the thumbnail image that is the scale of colours and add it to the `legend`
+The explanations are in the comments
 ```javascript
-  // create the legend image
+  // create the legend image thumnail in a gradient of colours 
+  //    using a trick to keep it stable when the user moves the map
   // -creates an image with two bands named 'longitude' and 'latitude', 
-  //  containing the longitude and latitude at each pixel, in degrees
-  //  select the band 'latitude' and store it in variable 'lon' (?)
-  // this is the trick to make the vertical gradient and keep it stable when the use moves the map
-  // if the 'thumbnail' is horizontal rather than vertical, select the band 'longitude'
+  //    containing the longitude and latitude at each pixel, in degrees
+  // -select the band 'latitude' and store it in variable 'lon' (?)
+  // if the thumbnail is horizontal rather than vertical, select the band 'longitude'
   var lon = ee.Image.pixelLonLat().select('latitude');
-  // ' populationExposedVis' is the object used to visualise the image layer ' population_exposed'
+  // 'legendAnoNDVI' is the object used to visualise the image layer 'NDVI_anomaly'
   // with the 'min' the 'max' and the 'palette'
   var gradient = lon.multiply((legendAnoNDVI.max-legendAnoNDVI.min)/100.0).add(legendAnoNDVI.min);
   var legendImage = gradient.visualize(legendAnoNDVI);
