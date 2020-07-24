@@ -69,20 +69,26 @@ Here, top and bottom paddings are 8 pixels; right and left paddings are 15 pixel
   legend.add(panel);
 ```
 ## Step 5: create the thumbnail image that is the scale of colours and add it to the `legend`
-The explanations are in the comments
+The explanations are in the comments. The legend is a thumbnail that GEE can create from an image. Here we use `pixelLonLat()` to complement the image with 2 bands, one band where each pixel contains the pixel's latitude in the inital image, the other band where each pixel value is the longitude. Then we select the band `latitude` (vertcal thumbnail).
 ```javascript
   // create the legend image thumnail in a gradient of colours 
   //    using a trick to keep it stable when the user moves the map
-  // -creates an image with two bands named 'longitude' and 'latitude', 
+  // -add to the image two bands named 'longitude' and 'latitude', 
   //    containing the longitude and latitude at each pixel, in degrees
-  // -select the band 'latitude' and store it in variable 'lon' (?)
+  // -here the thumnail is vertical so we select the band 'latitude' as an image named 'lon' (:-)
   // if the thumbnail is horizontal rather than vertical, select the band 'longitude'
   var lon = ee.Image.pixelLonLat().select('latitude');
-  // 'legendAnoNDVI' is the object used to visualise the image layer 'NDVI_anomaly'
-  // with the 'min' the 'max' and the 'palette'
+```
+We fill the image `lon` with the gradient of the value of latitude defined by the anomaly palette of colours. We `visualise` it in JPEG 8-bit.
+```javascript
+// 'legendAnoNDVI' is the object used to visualise the image layer 'NDVI_anomaly'
+//   with the 'min' the 'max' and the 'palette'
   var gradient = lon.multiply((legendAnoNDVI.max-legendAnoNDVI.min)/100.0).add(legendAnoNDVI.min);
   var legendImage = gradient.visualize(legendAnoNDVI);
-  // create thumbnail from the image, showing the vertical gradient
+```
+We ask GEE to create a thumnail out of it and store it in the `legend` panel.
+```javascript
+// create thumbnail from the image, showing the vertical gradient
   var thumbnail = ui.Thumbnail({
     image: legendImage,
     params: {bbox:'0,0,10,100', dimensions:'10x160'},
