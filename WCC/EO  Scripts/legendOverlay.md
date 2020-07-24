@@ -79,7 +79,7 @@ The explanations are in the comments. The legend is a thumbnail that GEE can cre
   // if the thumbnail is horizontal rather than vertical, select the band 'longitude'
   var lon = ee.Image.pixelLonLat().select('latitude');
 ```
-We fill the image `lon` with the gradient of the value of latitude defined by the anomaly palette of colours. We `visualise` it in JPEG 8-bit.
+In the code below, we fill the image `lon` with the gradient of the value of latitude defined by the anomaly palette of colours. We `visualise` it in JPEG 8-bit.
 ```javascript
 // 'legendAnoNDVI' is the object used to visualise the image layer 'NDVI_anomaly'
 //   with the 'min' the 'max' and the 'palette'
