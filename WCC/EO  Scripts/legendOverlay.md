@@ -18,6 +18,7 @@ The result looks like this
 <img src="https://github.com/kvutien/Top-Level/blob/master/common/images/20200722%20Colour%20scale%20legend.jpg" width="120">
 
 ## Step 1: define the widget panel `legend`
+The padding is the space _inside_ the panel, between the border and the content. The margin is the space _outside_ it, between the panel and its surrounding. Top and bottom paddings are 8 pixels. Right and left paddings are 15 pixels.
 ```javascript
   // set position of panel
   var legend = ui.Panel({
