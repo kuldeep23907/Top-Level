@@ -69,7 +69,7 @@ Here, top and bottom paddings are 8 pixels; right and left paddings are 15 pixel
   legend.add(panel);
 ```
 ## Step 5: create the thumbnail image that is the scale of colours and add it to the `legend`
-The explanations are in the comments. The legend is a thumbnail that GEE can create from an image. Here we use `pixelLonLat()` to complement the image with 2 bands, one band where each pixel contains the pixel's latitude in the inital image, the other band where each pixel value is the longitude. Then we select the band `latitude` (vertcal thumbnail).
+The explanations are in the comments. The legend is a thumbnail that GEE can create from an image. Here we use `pixelLonLat()` to complement the image with 2 bands, one band where each pixel contains the pixel's latitude in the inital image, the other band where each pixel value is the longitude. Then we select the band `latitude` (vertical thumbnail).
 ```javascript
   // create the legend image thumnail in a gradient of colours 
   //    using a trick to keep it stable when the user moves the map
