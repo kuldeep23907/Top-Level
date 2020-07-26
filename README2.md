@@ -5,7 +5,7 @@ The project is composed of 2 distinct sub-projects. Each of them is in a distinc
 * the Risk Sharing Community (RSC) project;
 * the Watcher Collaborative Community (WCC) project.
 
-RSC-WCC being open source and collaborative, agreed contributors are free to add more sub-projects after coordination with the developer community.
+RSC-WCC being open source and collaborative, agreed contributors are free to add more sub-projects after coordination with the developer community. An example could be the risk-modelling sub-project (probably in Rstudio).
 
 ## Roles in the RSC (Risk Sharing Community)
 On the RSC side
