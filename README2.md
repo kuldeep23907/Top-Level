@@ -1,5 +1,5 @@
 # RSC-WCC Project Organisation
-This document is a work-in-progress draft. It complements README.md and describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling.
+This document is a work-in-progress draft. It complements [README.md](https://github.com/kvutien/Top-Level/blob/master/README.md) and describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling.
 
 The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
 * the Risk Sharing Community (RSC) project;
