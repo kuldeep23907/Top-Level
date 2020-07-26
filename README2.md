@@ -2,8 +2,13 @@
 This document complements [README.md](https://github.com/kvutien/Top-Level/blob/master/README.md) and describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling.
 
 The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
-* the Risk Sharing Community (RSC) project;
-* the Watcher Collaborative Community (WCC) project.
+* the Risk Sharing Community (RSC) sub-project;
+  * the actual Risk Sharing Community (RSC) in any language;
+  * the Risk Modelling Community (RMC) sub-project, mostly in R;
+* the Watcher Collaborative Community (WCC) sub-project;
+* the `common` utilities folder;
+  * the plumbing code;
+  * the blockchain interoperability folder.
 
 RSC-WCC being open source and collaborative, agreed contributors are free to add more sub-projects after coordination with the developer community. An example could be the risk-modelling sub-project (probably in Rstudio).
 
