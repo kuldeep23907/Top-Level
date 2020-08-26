@@ -34,7 +34,9 @@ A sample set of watcher helper tools developed in Google Earth Engine (GEE) are 
 * _McGyver_: a web app to visualise the instant chlorophyll activity of plants and the water content of the leaves. It also visualises "anomalies", the differences of the current value with the average of the past 20 years;
 * _Laureline_: a web app to chart over one year the instant chlorophyll activity of plants and the water content of the leaves. It also charts "anomalies". The charts show the one-year time series of each parameter as well as the upper and lower bounds that contains 80% of that parameter over the past 20 years;
 * _Dredd_: a web app to visualise 2 complex indexes. They are composite and less directly linked with measurements although they represent better the physical reality. One composite parameter is the fAPAR (fraction of Absorbed Photosynthetically Active Radiation). The other is the Leaf Area Index. This web app also visalises "anomalies";
-* _Valerian_: a web app to do the same as Laureline does, but for the fAPAR and the LAI.
+* _Valerian_: a web app to do the same as Laureline does, but for the fAPAR and the LAI;
+* _Bonsai_: a web app to visualise the Surface Soil Moisture (SSM) and the SubSurface Soil Moisture (SuSM). These parameters are more remote from the vegetation health. Actually studies have shown that the health of vegetation is most correlated with the soil moisture of 30 to 40  days before. Hence the web app have exotic names.
+* _Kakemono_: a web app to do the same as Laureline does, but for the SSM and the SuSM.
 
 Technically speaking, this evolution of IBISA is based on a [microservice architecture](https://en.wikipedia.org/wiki/Microservices). Each of the sample web app is such a microservice. A microservice architecture allows external developers to develop easily additional watcher helper tools and risk-sharing applications without being tied to any previous internal choices.
 
