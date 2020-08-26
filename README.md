@@ -16,7 +16,7 @@ The components are (see drawings below):
 
 The 2 blockchains are interoperable via Cosmos or PolkaDot. In the future, other loss assessment blockchains can join the community and their data may be used by other risk-sharing communities. 
 
-The two communities RSC and WCC are open source. Any watcher can develop and contribute a watching helper tool to the WCC community. Any enabler can develop its own application to read the RSC blockchain and connect to its own customer database. The enabler is free to record of contributions and the loss compensation calculation using a classical database or using another blockchain. A sample set of watcher helper tools developed in Google Earth Engine (GEE) are already available in GEE open Git code repository and is described here [in this GitHub](https://github.com/kvutien/Top-Level/tree/master/WCC).
+The two communities RSC and WCC are open source. Any watcher can develop and contribute a watching helper tool to the WCC community. Any enabler can develop its own application to read the RSC blockchain and connect to its own customer database. The enabler is free to record of contributions and the loss compensation calculation using a classical database or using another blockchain.
 
 ## What is the pain? what is the solution?
 The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance while providing more than 70% of the world's food. See [IFAD report 2013](https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013. But today in 2021 the planets are aligned to create a cost-effective solution:
@@ -30,7 +30,13 @@ The solution proposed by IBISA (_Inclusive Blockchain Insurance using Space Asse
 ## The long-term vision
 The following fully decentralised approach using a double blockchain RSC-WCC is too far from the current practices and therefore has to be implemented gradually, in the shadow of IBISA, although it has a stronger growth potential. IBISA has its place in the global landscape of RSC-WCC, as can be seen in the following chart. ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
-Technically speaking, this evolution of IBISA is based on a [microservice architecture](https://en.wikipedia.org/wiki/Microservices). A microservice architecture allows external developers to develop additional watcher helper tools  and risk-sharing applications without being tied to any previous internal choices.
+A sample set of watcher helper tools developed in Google Earth Engine (GEE) are already available in GEE open Git code repository and is described here [in this GitHub](https://github.com/kvutien/Top-Level/tree/master/WCC). it is composed of:
+* McGyver: a web app to visualise the instant chlorophyll activity of plants and the water content of the leaves. It also visualises "anomalies", the differences of the current value with the average of the past 20 years;
+* Laureline: a web app to chart over one year the instant chlorophyll activity of plants and the water content of the leaves. It also charts "anomalies". The charts show the one-year time series of each parameter as well as the upper and lower bounds that contains 80% of that parameter over the past 20 years;
+* Dredd: a web app to visualise 2 complex indexes. They are composite and less directly linked with measurements although they represent better the physical reality. One composite parameter is the fAPAR (fraction of Absorbed Photosynthetically Active Radiation). The other is the Leaf Area Index. This web app also visalises "anomalies";
+* Valerian: a web app to do the same as Laureline does, but for the fAPAR and the LAI.
+
+Technically speaking, this evolution of IBISA is based on a [microservice architecture](https://en.wikipedia.org/wiki/Microservices). Each of the sample web app is such a microservice. A microservice architecture allows external developers to develop easily additional watcher helper tools and risk-sharing applications without being tied to any previous internal choices.
 
 More in [README2.md](https://github.com/kvutien/Top-Level/blob/master/README2.md)
 
