@@ -2,12 +2,12 @@
 This document is a work-in-progress draft. It describes an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but RSC-WCC is a collaborative project while IBISA is a classical monolithic structure. In RSC-WCC, IBISA would be a simple collaborative participant as any other guests and an external user of RSC-WCC data. 
 
 The fundamental vision of the project is the following
-* today data belongs to big platforms
-* with the data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
+* today data belong to big platforms
+* with these data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
 * these data SHOULD BE A PUBLIC SERVICE
 * the decentralised blockchain 2.0 is an ideal tool to support such a public service.
 
-From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farùers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by a single entity. This ecosystem would be similar to the ecosystem of of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, restauration, shops, guides, maps, directories etc.
+From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farùers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by a single entity. This ecosystem would be similar to the ecosystem of of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, restauration, shops, guides, maps, directories etc. 
 
 The components are (see drawings below):
 
