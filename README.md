@@ -7,11 +7,13 @@ The fundamental vision of the project is the following
 * these data SHOULD BE A PUBLIC SERVICE
 * the decentralised blockchain 2.0 is an ideal tool to support such a public service.
 
-From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by a single entity. This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, restauration, shops, guides, maps, directories etc. 
+From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by any single entity. 
+
+This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, restauration, shops, guides, maps, directories etc. 
 
 **Remember how Road 66 gave birth to the complete economy of the West**.
 
-The power that fuels the growth of such an ecosystem is the universal need for roads. As we'll see below, the same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
+The power that fuels the growth of such an ecosystem is the universal need for roads. The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
 
 The components are (see drawings below):
 
