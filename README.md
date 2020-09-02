@@ -15,7 +15,7 @@ From this vision, the project aims to build a collaborative open source public s
 
 * The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
 
-The components are (see drawings below):
+The components are (see drawings below, in "Long Term Vision"):
 
 1. [**_Machu_**, aka RSC (Risk-Sharing Community)](https://github.com/kvutien/Top-Level/tree/master/RSC): a blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, (group membership, to be confirmed);
 2. [**_Picchu_**, aka WCC (Watcher Collaborative Community)](https://github.com/kvutien/Top-Level/tree/master/WCC): a blockchain-based vegetation loss assessment community, storing information on location of the centre of group, date of (monthly) assessment, watcher assessing, percentage of loss.
