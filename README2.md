@@ -1,19 +1,19 @@
-# RSC-WCC Project Organisation
+# _Machu-Picchu_ Project Organisation
 This document complements [README.md](https://github.com/kvutien/Top-Level/blob/master/README.md) and describes the overall architecture of an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling.
 
 The project is composed of 2 distinct sub-projects. Each of them is in a distinct Github folder, plus one folder for the blockchain interoperability between the 2 (either Cosmos or PolkaDot).
-* the Risk Sharing Community (RSC) sub-project;
-  * the actual Risk Sharing Community (RSC) in any language;
+* _Machu_: the Risk Sharing Community (RSC) sub-project;
+  * the actual Risk Sharing Community (RSC) sub-projectin any programming language;
   * the Risk Modelling Community (RMC) sub-project, mostly in R;
-* the Watcher Collaborative Community (WCC) sub-project;
+* _Picchu_: the Watcher Collaborative Community (WCC) sub-project;
 * the `common` utilities folder;
   * the plumbing code;
   * the blockchain interoperability folder.
 
-RSC-WCC being open source and collaborative, agreed contributors are free to add more sub-projects after coordination with the developer community. An example could be the risk-modelling sub-project (probably in Rstudio).
+_Machu-Picchu_ being open source and collaborative, agreed contributors are free to add more sub-projects after coordination with the developer community. An example could be the risk-modelling sub-project (probably in Rstudio).
 
-## Roles in the RSC (Risk Sharing Community)
-On the RSC side
+## Roles in _Machu_ (Risk Sharing Community)
+On the _Machu_ side
 * the RSC blockchain contains one record per farmer with the public key of the farmer, the public keys of the plots of field of this farmer (most usually one plot of field per farmer but can be several);
 * the RSC blockchain contains one record per plot of field with the public key of the owner, GPS coordinates, the date of ownership, the loss assessment with the date of assessment, the watcher key and the percentage of loss;
 * the data crowdsourced by the community may be retrieved and **used by anybody**. IBISA is just one of these "anybody" users;
@@ -30,8 +30,8 @@ IBISA could also offer consulting services to the above to take advantage of IBI
 
 In the long-term future, additional risk-sharing and community watching may be added covering many kinds of calamity: road infrastructure watching, flood watching, natural calamities watching, drought warning etc.
 
-## Roles in the WCC (Watcher Collaborative Community)
-On the WCC side, the principles that support this WCC community are:
+## Roles in _Picchu_ (Watcher Collaborative Community)
+On the _Picchu_ side, the principles that support this community are:
 * the tools are available open source for free use. A community of developers is encouraged;
 * all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
 * they contribute crowd-watching results to a WCC open blockchain database;
