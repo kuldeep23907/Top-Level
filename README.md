@@ -11,7 +11,7 @@ From this vision, the project aims to build a collaborative open source public s
 
 * This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, restauration, shops, guides, maps, directories etc. 
 
-* **Remember how Road 66 gave birth to the complete economy of the West**. The power that fuels the growth of such an ecosystem is the universal need for roads. 
+* **Remember how Road 66 gave birth to the complete economy of the West**. The power that fueled the growth of such an ecosystem is the universal need for roads. 
 
 * The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
 
@@ -24,7 +24,7 @@ The 2 blockchains are interoperable via Cosmos or PolkaDot. In the future, other
 
 The two communities _Machu_ and _Picchu_ are open source. Any watcher can develop and contribute a watching helper tool to the _Picchu_ community. Any enabler can develop its own application to read the _Machu_ blockchain and connect to its own customer database. The enabler is free to record of contributions and the loss compensation calculation using a classical database or using another blockchain.
 
-As of today, August 2020, _Machu_ doesn't exist yet in blockchain form but [McGyver, a preview tool of _Picchu_ exists here](https://ibisa.users.earthengine.app/view/mcgyver3). With this tool you can observe the state of vegetation on 60 villages located in Tamil Nadu, India. With 310 farmers (August 2020), each village has in average 5 paying farmers participating to IBISA. You can change the date of observation. You can observe the health of vegetation and it's hydric stress. IBISA expects 5000 paying farmers end of 2020 and is pre-registering 10,000 breeders in Niger for 2021.
+As of today, August 2020, _Machu_ doesn't exist yet in blockchain form but [McGyver, a preview tool of _Picchu_ exists here](https://ibisa.users.earthengine.app/view/mcgyver3). With this tool you can observe the state of vegetation on 60 villages located in Tamil Nadu, India. With 310 farmers (August 2020), each village has in average 5 paying farmers participating to IBISA. You can change the date of observation, you can observe the health of vegetation and it's hydric stress. IBISA expects 5000 paying farmers end of 2020 and is pre-registering 10,000 breeders in Niger for 2021.
 
 ## What is the pain? what is the solution?
 The need and the opportunities are huge since there are more than 500 M smallholder farmers who don't have access to crop insurance while providing 90% of the world's food. See [IFAD report 2013](https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf/460ca6c2-7621-40d8-9f79-a56f6f8fa75e). The situation has worsened since 2013. But today in 2021 the planets are aligned to create a cost-effective solution:
