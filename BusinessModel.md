@@ -20,7 +20,7 @@ Contrary to the rich market in developed countries that fueled the growth of Air
 
 On the other side, IBISA is collecting a rich real life thesaurus of data (thousands of members currently in India and the same in Niger) that _Machu-Picchu_ will use to validate its developments.
 ## The business model of _Machu-Picchu_
-The business model of ¨Machu-Picchu_ is similar to a public service such as a road network: a main road and a lot of feeder roads. The component roads of whole network are built by a lot of independent entities and the value of the whole is more than each component separately.
+The business model of _Machu-Picchu_ is similar to a public service such as a road network: a main road and a lot of feeder roads. The component roads of whole network are built by a lot of independent entities and the value of the whole is more than each component separately.
 ### Sources of benefits
 The immediate benefit of _Machu-Picchu_ is to lower the risk-sharing costs. As a result, economic activity will be changed throughout the whole economy as the saved resources are re-deployed, as smallholder farmers and breeders adjust to their new cost and pattern of expenditure. 
 
