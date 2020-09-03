@@ -39,6 +39,7 @@ The extent to which the local economy will benefit from the investment will be d
 * More social interactivity
 * Economic growth
 ## The business model of _Machu-Picchu_ developers
-* Early bird on technology aspects of a global service
-* Early bird on use of data for international institutions
+* Early bird on technology aspects of a global service (compliance, security, interface with legacy)
+* Early bird on business process impacted by modern toold (software engineering, training, communication)
+* Early bird on use of data for international institutions (advisory, expertise, PoC)
 * Multifactorial use of modern tools on feeder services for public usages (blockchain, blockchain "oracle", Earth Observation, crowdsourcing, decentralised trust etc.)
