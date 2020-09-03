@@ -6,7 +6,7 @@ _Machu-Picchu_ intends to build a public service of data to protect smallholder 
 
 The ambition of _Machu-Picchu_ is to become a public service serving a similar purpose as today's platform like Uber, FaceBook, Google etc. but instead of being proprietary the data would serve the public benefit and feed the global socio-economic substrate.
 * Today these platforms are more powerful with their data than any local authority. They know more about the habits of the citizens: mobility, consuming, socialising etc.
-* At a certain scale of _Machu-Picchu_, like [Road 66](https://en.wikipedia.org/wiki/U.S._Route_66) and other road networks in the world, the public service of data of smallholder farmers brings a public social economic **return on investment of several orders of magnitude**.
+* At a certain scale of _Machu-Picchu_, like [Road 66](https://en.wikipedia.org/wiki/U.S._Route_66) and other road networks in the world, this public service of data of smallholder farmers brings a public social economic **return on investment of several orders of magnitude**.
 
 ## The context
 * Smallholder farmers feed 90% of the world [IFAD report 2013](https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf);
