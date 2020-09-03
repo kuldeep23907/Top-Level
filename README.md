@@ -4,7 +4,7 @@ This document describes an open mutual crop risk-sharing project using blockchai
 The fundamental vision of the project is the following
 * today data belong to big platforms
 * with these data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
-* these data SHOULD BE A PUBLIC SERVICE
+* these data SHOULD BE A **PUBLIC SERVICE**
 * the decentralised blockchain 2.0 is an ideal tool to support such a public service.
 
 From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by any single entity. 
