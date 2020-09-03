@@ -1,8 +1,8 @@
 # Business Model of _Machu-Picchu_ Project
 _Machu-Picchu_ intends to build a public service of data to protect smallholder farmers and breeders worldwide and further improve their lives. [More details here](https://github.com/Machu-Pichu/Top-Level/blob/master/README.md)
-* Public service of data: data is on a blockchain, is visible and usable by everybody;
-* To protect smallholder farmers worldwide: the first use of data is to implement a decentralised mutual crop risk-sharing service;
-* To further improve: the same data can be used to do credit rating of farmers, to feed incentive programs for education, for gender equality, and to server statistics to support other programs of authorities and international bodies.
+* **Public service of data**: data is on a blockchain, is visible and usable by everybody;
+* **To protect smallholder farmers worldwide**: the first use of data is to implement a decentralised mutual crop risk-sharing service;
+* **To further improve**: the same data can be used to do credit rating of farmers, to feed incentive programs for education, for gender equality, and to server statistics to support other programs of authorities and international bodies.
 
 The ambition of _Machu-Picchu_ is to become a public service serving a similar purpose as today's platform like Uber, FaceBook, Google etc. but instead of being proprietary the data would serve the public benefit and feed the global socio-economic substrate.
 * Today these platforms are more powerful with their data than any local authority. They know more about the habits of the citizens: mobility, consuming, socialising etc.
