@@ -9,12 +9,16 @@ The ambition of _Machu-Picchu_ is to become a public service serving a similar p
 * At a certain scale of _Machu-Picchu_, like [Road 66](https://en.wikipedia.org/wiki/U.S._Route_66) and other road networks in the world, this public service of data of smallholder farmers brings a public social economic **return on investment of several orders of magnitude**.
 
 ## The context
+### The pain - The solution
 * Smallholder farmers feed 90% of the world [IFAD report 2013](https://www.ifad.org/documents/38714170/40706188/Smallholders+can+feed+the+world_e.pdf);
 * Their revenues are not well protected against calamities: the risks are too small and happen too frequently for the classical insurance to be profitable and viable;
 * They practiced for millenaries risk-sharing among them at village level, but this is not enough with Climate Change;
 * IBISA uses the blockchain to model the same decentralised mutual approach and scale it globally. At the same time, IBISA uses Earth Observation to do damage assessment at a lowest cost possible and leave as much money as possible to the protection mission itself. However, to prove its revolutionary approach IBISA needs to be immediately visible and implemented its solution in a centralised architecture.
 * Machu-Picchu is a long-term work to bring the same idea as IBISA to reality. In final, _Machu-Picchu_'s public data would serve IBISA as any other user of the public data and IBISA would contribute to the ecosystem as any other contributor.
+### The complementarity _Machu-Picchu_ & IBISA
+Contrary to the rich market in developed countries that fueled the growth of AirBnB, Uber and the like, the smallholder market of IBISA needs to reach a large size before the revenues can sustain a powerful development team. In the meantime, _Machu-Picchu_ brings to IBISA this technical development force (_pro-bono_ and open source) that reinforces the credibility of IBISA with investors.
 
+On the other side, IBISA is collecting a rich real life thesaurus of data (thousands of members currently in India and the same in Niger) that _Machu-Picchu_ will use to validate its developments.
 ## The business model of _Machu-Picchu_
 The business model of ¨Machu-Picchu_ is similar to a public service such as a road network: a main road and a lot of feeder roads. The component roads of whole network are built by a lot of independent entities and the value of the whole is more than each component separately.
 ### Sources of benefits
