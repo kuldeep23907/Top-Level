@@ -1,6 +1,8 @@
 # _Machu-Picchu_ Project Overview
 This document describes an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but _Machu-Picchu_ is a collaborative project while IBISA is a classical monolithic structure. In _Machu-Picchu_, IBISA would be a simple collaborative participant as any other guests and an external user of _Machu-Picchu_ data. 
 
+[Business Model...](https://github.com/Machu-Pichu/Top-Level/blob/master/BusinessModel.md)
+
 The fundamental vision of the project is the following
 * today data belong to big platforms
 * with these data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
