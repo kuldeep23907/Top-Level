@@ -8,5 +8,5 @@ The need and the opportunities are huge since there are more than 500 M smallhol
 
 The solution proposed by IBISA (_Inclusive Blockchain Insurance using Space Assets_) is to use the blockchain to share the risks and use human collective intelligence (crowd-watching) instead of machine algorithms to assess crop damages. This approach reduces drastically the costs, with a potentially equal accuracy. However, because the landscape it starts from was empty, IBISA had to implement the whole value chain to convince existing actors, resulting in an immediately usable but monolithic architecture. 
 
-## [The long-term vision...](https://github.com/Machu-Pichu/Top-Level/edit/master/README/2-README.md)
+## [The long-term vision...](https://github.com/Machu-Pichu/Top-Level/blob/master/README/2-README.md)
 
