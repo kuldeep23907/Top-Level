@@ -1,21 +1,5 @@
 # _Machu-Picchu_ Project Description
-This document describes an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but _Machu-Picchu_ is a collaborative project while IBISA is a classical monolithic structure. In _Machu-Picchu_, IBISA would be a simple collaborative participant as any other guests and an external user of _Machu-Picchu_ data. 
-
-The fundamental vision of the project is the following
-* today data belong to big platforms
-* with these data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
-* these data SHOULD BE A **PUBLIC SERVICE**
-* the decentralised blockchain 2.0 is an ideal tool to support such a public service.
-
-From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by any single entity. 
-
-* This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, hotels, restaurants, shops, guides, maps, directories etc. 
-
-* **Remember how Road 66 gave birth to the complete economy of the West**. The power that fueled the growth of such an ecosystem is the universal need for roads. There has not been a single company that made and owned Road 66.
-
-* The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
-
-The components are (see drawings below, in "Long Term Vision"):
+The components are: ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
 1. [**_Machu_**, aka RSC (Risk-Sharing Community)](https://github.com/kvutien/Top-Level/tree/master/RSC): a blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, (group membership, to be confirmed);
 2. [**_Picchu_**, aka WCC (Watcher Collaborative Community)](https://github.com/kvutien/Top-Level/tree/master/WCC): a blockchain-based vegetation loss assessment community, storing information on location of the centre of group, date of (monthly) assessment, watcher assessing, percentage of loss.
