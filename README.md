@@ -1,8 +1,6 @@
 # _Machu-Picchu_ Project Overview
 This document describes an open mutual crop risk-sharing project using blockchain, Earth Observation and Actuarial Risk Modelling. It is based on the same philosophy as IBISA (https://ibisa.network/), but _Machu-Picchu_ is a collaborative project while IBISA is a classical monolithic structure. In _Machu-Picchu_, IBISA would be a simple collaborative participant as any other guests and an external user of _Machu-Picchu_ data. 
 
-[Business Model...](https://github.com/Machu-Pichu/Top-Level/blob/master/BusinessModel.md)
-
 The fundamental vision of the project is the following
 * today data belong to big platforms
 * with these data, these platforms are more powerful than local authorities. They know more about the citizens habits of mobility, of leisure, of consuming, of credit, of social networking etc.
@@ -12,10 +10,10 @@ The fundamental vision of the project is the following
 From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by any single entity. 
 
 * This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, hotels, restaurants, shops, guides, maps, directories etc. 
-
 * **Remember how Road 66 gave birth to the complete economy of the West**. The power that fueled the growth of such an ecosystem is the universal need for roads. There has not been a single company that made and owned Road 66.
-
 * The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
+
+[Business Model...](https://github.com/Machu-Pichu/Top-Level/blob/master/BusinessModel.md)
 
 The components are (see drawings below, in "Long Term Vision"):
 
