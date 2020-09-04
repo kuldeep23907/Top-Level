@@ -13,6 +13,6 @@ A sample set of watcher helper tools have been already developed in Google Earth
 
 Technically speaking, this evolution of IBISA is based on a [microservice architecture](https://en.wikipedia.org/wiki/Microservices). Each of the sample web app is such a microservice. A microservice architecture allows external developers to develop easily additional watcher helper tools and risk-sharing applications without being tied to any previous internal choices.
 
-More in [README2.md](https://github.com/kvutien/Top-Level/blob/master/README2.md)
+More in [Project GitHub organisation...](https://github.com/Machu-Pichu/Top-Level/blob/master/README/4-README.md)
 
 # [One last thing...](https://github.com/Machu-Pichu/Top-Level/blob/master/README/3-README.md)
