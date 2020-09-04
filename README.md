@@ -26,4 +26,4 @@ The two communities _Machu_ and _Picchu_ are open source. Any watcher can develo
 
 As of today, August 2020, _Machu_ doesn't exist yet in blockchain form but [McGyver, a preview tool of _Picchu_ exists here](https://ibisa.users.earthengine.app/view/mcgyver3). With this tool you can observe the state of vegetation on 60 villages located in Tamil Nadu, India. With 310 farmers (August 2020) scattered in 60 villages, each village has in average 5 paying farmers participating to IBISA. In McGyver you can change the month of observation. For that month you can observe the health of vegetation and it's hydric stress. IBISA expects 5000 paying farmers end of 2020 and is pre-registering 10,000 breeders in Niger for 2021.
 
-## [What is the pain? what is the solution?](https://github.com/Machu-Pichu/Top-Level/blob/master/README/1-README.md)
+## [What is the pain? what is the solution?...](https://github.com/Machu-Pichu/Top-Level/blob/master/README/1-README.md)
