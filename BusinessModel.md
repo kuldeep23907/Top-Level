@@ -18,7 +18,7 @@ On the other side, IBISA is collecting a rich real life thesaurus of data (thous
 The immediate benefit of _Machu-Picchu_ is to lower the risk-sharing costs. As a result, economic activity will be changed throughout the whole economy as the saved resources are re-deployed, as smallholder farmers and breeders adjust to their new cost and pattern of expenditure. 
 
 The extent to which the local economy will benefit from the investment will be dependent on its economic potential, such as unused land and labour, and on the magnitude of the change in economic practices, cascading up from agriculture to the services (education, health, legal etc.). The effect on the economy is extremely complex and is virtually impossible to model in detail.
-### Immediate Benefits (RoI x10-x100)
+### Immediate Benefits (RoI x10-x1000)
 * Better Protection
 * Less Modern Slavery
 * Better Agricultural Practices
