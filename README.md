@@ -17,8 +17,8 @@ From this vision, the project aims to build a collaborative open source public s
 
 The components are (see drawings below, in [Machu-Picchu Description](https://github.com/Machu-Pichu/Top-Level/blob/master/README/0-README.md):
 
-1. [**_Machu_**, aka RSC (Risk-Sharing Community)](https://github.com/kvutien/Top-Level/tree/master/RSC): a blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, (group membership, to be confirmed);
-2. [**_Picchu_**, aka WCC (Watcher Collaborative Community)](https://github.com/kvutien/Top-Level/tree/master/WCC): a blockchain-based vegetation loss assessment community, storing information on location of the centre of group, date of (monthly) assessment, watcher assessing, percentage of loss.
+1. [**_Machu_**, aka RSC (Risk-Sharing Community)](https://github.com/kvutien/Top-Level/tree/master/RSC): a distributed blockchain-based risk-sharing community, storing information on farmers, geographical locations of  the plots of field, onboarding date, (group membership, to be confirmed);
+2. [**_Picchu_**, aka WCC (Watcher Collaborative Community)](https://github.com/kvutien/Top-Level/tree/master/WCC): a decentralised blockchain-based vegetation loss assessment community, storing information on location of the centre of group, date of (monthly) assessment, watcher assessing, percentage of loss.
 
 The two communities _Machu_ and _Picchu_ are open source. Any watcher can develop and contribute a watching helper tool to the _Picchu_ community. Any enabler can develop its own application to read the _Machu_ blockchain and connect to its own customer database. The enabler is free to record of contributions and the loss compensation calculation using a classical database or using another blockchain.
 
