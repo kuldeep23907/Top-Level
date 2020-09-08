@@ -10,7 +10,7 @@ The fundamental vision of the project is the following
 From this vision, the project aims to build a collaborative open source public service of open data, geared at the protection of crop risks of smallholder farmers worldwide. On such a public service could blossom a full ecosystem of services, like on the data of Uber or Facebook, but not owned by any single entity. 
 
 * This ecosystem would be similar to the ecosystem of roads, on which could prosper transportation services, commerce and repair of vehicle, driving school, hotels, restaurants, shops, guides, maps, directories etc. 
-* **Remember how Road 66 gave birth to the complete economy of the West**. The power that fueled the growth of such an ecosystem is the universal need for roads. There has not been a single company that made and owned Road 66.
+* **Remember how Road 66 gave birth to the complete economy of the West**. The power that fueled the growth of such an ecosystem is the universal need for roads. There has not been one single company that made and owned Road 66.
 * The same universal need for crop protection (more than 500M farmers worldwide feeding 90% of the world) will feed the ecosystem built on _Machu-Picchu_.
 
 [Business Model...](https://github.com/Machu-Pichu/Top-Level/blob/master/BusinessModel.md)
