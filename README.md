@@ -3,7 +3,7 @@ This document describes an open mutual crop risk-sharing project using blockchai
 
 As of today, August 2020, _Picchu_, the Earth Observation part, is well progressed: [McGyver, a preview tool of it exists here](https://ibisa.users.earthengine.app/view/mcgyver3). With this tool you can observe the state of vegetation on 60 villages located in Tamil Nadu, India. With [310 farmers](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Tamil%20Nadu%20farmers.csv.txt) (August 2020) scattered in 60 villages, each village has in average 5 paying farmers participating to IBISA. In McGyver you can change the month of observation. For that month you can observe the health of vegetation and it's hydric stress. IBISA expects 5000 paying farmers end of 2020 and is pre-registering 10,000 [breeders in Niger](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Tamil%20Nadu%20farmers.csv.txt) for 2021.
 
-However _Machu_ doesn't exist yet in blockchain form but a mere prototype was done in 2018. Participants to the ConsenSys Bootcamp 2020 are heartily invited to select which part in _Machu-Picchu_ to use for their Final Project. They can use real life values of farmersz and breeders to do their testing.
+However _Machu_ doesn't exist yet in blockchain form but a mere prototype was done in 2018. Participants to the ConsenSys Bootcamp 2020 are heartily invited to select which part in _Machu-Picchu_ to use for their Final Project. They can use real life values of farmers and breeders to do their testing.
 
 The fundamental vision of the _Machu-Picchu_ project is the following:
 * today data belong to big platforms
