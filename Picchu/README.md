@@ -11,10 +11,10 @@ Most crowdsourcing initiatives have been managed in a centralised way, with an a
 ## Overall diagram
 ![Overall RSC-WCC Architecture](https://raw.githubusercontent.com/kvutien/Top-Level/master/common/images/20200717%20RSC-WCC%20Overall%20Architecture.png)
 
-## RSC-WCC Sub-projects
+## _Picchu_ Sub-projects
 ![GitHub folder organisation RSC-WCC](https://github.com/kvutien/Top-Level/blob/master/common/images/20200717%20WCC%20Github%20Folders.png)
 
-## EO scripts
+## _Picchu_ EO scripts
 There are 3 kinds of GEE scripts:
 * "watch" scripts: display spatially the median index(es) of the month and their median anomalies of the month. Watch scripts exist for MODIS, Sentinel 2 and Landsat 8. They exist for NDVI (Normalised Differential Vegetation Index) and NDWI (Normalised Differential Water Index) as defined by Gao (1996). They also exist for fAPAR (fraction of Absorbed Photosynthetically Active Radiation) and LAI (Leaf Area Index) on MODIS, for SMOS (Soil Moisture), for CHIRPS (Climate Hazards Group InfraRed Precipitation with Station data), SPI (Standard Precipitation Index), LST (Land Surface Temperature) and many other indexes available on GEE;
 * "chart" scripts: calculate and display time series of the same indexes as above. They also generate CSV files that can feed R-Studio scripts to calculate correlations and other statistical objects, to determine the risk models, and to calibrate the colour palettes;
