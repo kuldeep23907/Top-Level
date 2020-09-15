@@ -36,3 +36,21 @@ The story of a _Machu_ risk sharing member is the following:
 *	The assessment of damages is done by crowd-watching using free Earth Observation data.
 
 This practice is already how rural communities do risk sharing since the dawn of time. An example of several villages participating to the _Machu_ community can be seen from the [sample McGyver web app](https://ibisa.users.earthengine.app/view/mcgyver3). In this satellite image overlaid on Google Maps, the members with fields from the villages in red will receive compensation directly from the other members, without any insurer as middleman.
+
+## Damage assessment by satellite story
+The story of a _Picchu_ crowd-sourced damage assessment member is the following:
+*	Each _Picchu_ member (a "watcher") does a blockchain transaction to a known public address of a contract to signal that he/she is ready to receive 10 locations (from true _Machu_ members, anywhere in the world) to assess;
+*	He/she uses the free crowd-watching tools available and do transactions to register the assessment for each village;
+*	All assessments of all watchers are tallied, weighted by each watcher's reputation, to produce an evaluation of the damage of the month of each village ("wisdom of the crowd"). This is done by an auditable smart contract;
+*	Each watcher reputation score is calculated and updated;
+*	The result is available to _Machu_ via an inter-blockchain protocol to calculate damage compensations.
+
+This story has been running, mostly manually, since IBISA was deployed on the field in June 2019.
+
+On the _Picchu_ side, the principles that support this community are:
+*	the data crowdsourced by the community is a public service that may be retrieved and used by anybody;
+*	the tools are available open source for free use. IBISA and _Machu-Picchu_ currently are the only ones who implement and support the _Picchu_ community, but a community of developers is encouraged;
+*	all watchers have their own free Google Earth Engine account and use it for a non-commercial use, that is to do crowd-watching;
+*	they contribute crowd-watching results to _Picchu_'s open blockchain database;
+*	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance , agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain;
+*	the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
