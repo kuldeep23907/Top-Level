@@ -9,6 +9,8 @@ _Machu_ is the Risk Sharing component. _Picchu_ is the EO-based Collaborative Da
 ## What is the pain? what is the solution?
 See [https://github.com/Machu-Pichu/Top-Level/blob/master/README/1-README.md](https://github.com/Machu-Pichu/Top-Level/blob/master/README/1-README.md)
 
+A public service like _Machu-Picchu_ may bring a return on investment (RoI) to the civil society similar to **Route 66** for the American Far-West: between 100 thousand times to one million time the initial community investment.
+
 ## The flow of transactions
 ![](https://github.com/Machu-Pichu/Top-Level/blob/master/common/images/20200914%20Machu-Picchu%20Transactions.png)
 The _Machu_ Risk Sharing community is managed by a blockchain. Its transactions record:
@@ -54,3 +56,26 @@ On the _Picchu_ side, the principles that support this community are:
 *	they contribute crowd-watching results to _Picchu_'s open blockchain database;
 *	the results can be used for many purposes: crop protection, deforestation monitoring, natural disaster watching, infrastructure surveillance , agriculture practices encouragement etc. Each purpose has its own transparent "watcher reputation engine" adapted to the purpose and located on the same blockchain;
 *	the watching tools may be developed independently use any source of satellite data: GEE, Sinergise, etc.
+
+# The technical contributions of blockchain
+## The blockchains
+Let's keep in mind that the purpose of _Machu-Picchu_ (and of IBISA) is to reduce drastically the operating costs of crop risk-sharing and by this, to protect the revenues of smallholder farmers and breeders against weather risks. This is achieved using Earth Observation and blockchain.
+
+Today, _Machu-Picchu_ blockchain programmers can test their code by using as examples of concrete (and anonymous) data of [300 paying farmers in India](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Tamil%20Nadu%20farmers.csv.txt) and [3600 pre-registered breeders in Niger](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Niger%20Breeders.csv.txt). This data is available in Github.
+
+In final, we see _Machu-Picchu_ as an ecosystem composed with several interoperable blockchains:
+*	The main blockchain is _Machu_, that contains members of the risk-sharing community. This is the one that will be implemented in priority in my Final Project.
+*	The secondary blockchain is _Picchu_, managing the crowd-watching using Earth Observation. This project is too complicated for my current level of proficiency. I'll tackle it after the Bootcamp, and if some students feels like addressing it now, it would be wonderful.
+*	The third level blockchain is the ERM of an enabler. This one is very ambitious. As of today, DHAN Foundation, who supports the smallholder farmers in Tamil Nadu, manages the contributions and the payouts using **paper notebooks** and **paper envelopes of cash**. Their process is well proven and would be an immediately useful blockchain project. It has to interoperate with _Machu_ either via Cosmos or PolkaDot, or via a Chainlink oracle. This is the challenging part. This subject contains also a lot of potential side projects to handle incentives, to interface with Mobile money, to produce reporting tools that measures social impacts etc.
+
+## Potential Bootcamp Final Projects
+Here is a list of challenges that a blockchain programmer may want to address, to contribute to _Machu-Picchu_:
+*	MVP of the _Machu_ blockchain (basics): setting, modifying and querying the locations, simulating the interface with the other blockchains (damage assessment received from _Picchu_, the contribution and payment from and to the IBISA ERM);
+*	Reputation and incentive management of the _Picchu_ blockchain (DeFi);
+*	ERC-20 fungible reputation token management on the _Picchu_ blockchain (minting, burning, DEX);
+*	ERC-720 non-fungible token management of the culture fields on the _Machu_ blockchain (minting, burning);
+*	ERC-20 fungible token management of the mutual risk sharing contribution and compensation on the _Machu_ blockchain;
+*	Cosmos or PolkaDot interoperability bridge between _Machu_ and _Picchu_;
+*	Mobile payment for the members to contribute and receive compensation;
+*	Blockchain explorer of _Machu_ to report impact to donor institution, to analyse credit rating of members;
+*	etc.
