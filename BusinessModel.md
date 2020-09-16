@@ -13,7 +13,7 @@ The business model of _Machu-Picchu_ is similar to a public service such as a ro
 ### The complementarity _Machu-Picchu_ & IBISA
 Contrary to the rich market in developed countries that fueled the growth of AirBnB, Uber and the like, the smallholder market of IBISA needs to reach a large size before the revenues can sustain a powerful development team. In the meantime, _Machu-Picchu_ brings to IBISA this technical development force (_pro-bono_ and open source) that reinforces the credibility of IBISA with investors.
 
-On the other side, IBISA is collecting a rich real life thesaurus of data (thousands of members currently in India and the same in Niger) that _Machu-Picchu_ will use to validate its developments.
+On the other side, IBISA is collecting a rich real life thesaurus of data (thousands of [members currently in India](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Tamil%20Nadu%20farmers.csv.txt) and [the same in Niger)](https://github.com/Machu-Pichu/Top-Level/blob/master/20200908%20Localised%20Niger%20Breeders.csv.txt) that _Machu-Picchu_ will use to validate its developments.
 ### Sources of benefits
 The immediate benefit of _Machu-Picchu_ is to lower the risk-sharing costs. As a result, economic activity will be changed throughout the whole economy as the saved resources are re-deployed, as smallholder farmers and breeders adjust to their new cost and pattern of expenditure. 
 
