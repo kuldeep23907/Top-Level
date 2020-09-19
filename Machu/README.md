@@ -2,7 +2,7 @@
 
 This folder is a work-in-progress specification of the final project of Vu Tien Khang for the ConsenSys Ethereum Programming Bootcamp. Other Bootcamp participants are welcome using it to inspire their own Final project.
 
-The project is a Tech4Good project. It is called _Machu-Picchu_. Its purpose is to support a decentralised risk sharing of crop risks among smallholder farmers worldwide. The challenge is to reduce drastically the administrative costs to convince smallholder farmers and breeders to join the community. Today September 2020, IBISA the predecessor of _Machu-Picchu_ is serving 310 farmers in Tamil Nadu, India, and is pre-registering 3000 up to 10'000 semi-nomadic breeders in Niger.
+The project is a Tech4Good project. It is called _Machu-Picchu_. Its purpose is to support a decentralised risk sharing of crop risks among smallholder farmers worldwide. The challenge is to reduce drastically the administrative costs to convince smallholder farmers and breeders to join the community. Today September 2020, IBISA the predecessor of _Machu-Picchu_ is serving 310 farmers in Tamil Nadu, India, and is pre-registering 3'000 up to 10'000 semi-nomadic breeders in Niger. The final target is several million members.
 
 _Machu_ is the Risk Sharing component. _Picchu_ is the EO-based Collaborative Damage Assessment component. A _Machu-Picchu_ "member" is a farmer or a breeder who shares the crop risks with other members, in a decentralised manner. This folder contains the _Machu_ sub-project.
 
@@ -30,14 +30,20 @@ The users of the _Machu_ data can be:
 
 # The stories
 ## Risk Sharing story
-The story of a _Machu_ risk sharing member is the following:
+The dream would be:
+* Each chief of village would have an Android app like the [sample McGyver web app](https://ibisa.users.earthengine.app/view/mcgyver3), with a Metamask mobile;
+* Each month, he/she would use it to assess the damages of other villages. The honesty and quality of the assessment, guaranteed by Metamask and the blockchain, makes up the "reputation" of this village;
+* In addition, volunteer laypersons worldwide (you and me, the "watchers") would also contribute use the same Android app (or web dApp) to improve the neutrality of the damage assessment. The reputation of the watchers is also accounted for;
+* In case of damage, the compensation that each farmer would receive is proportional to his/her "merit" (regularity of contribution to the common pot), weighted by the reputation of the village.
+
+The story of a farmer, a _Machu_ risk sharing member is the following:
 *	Each member contributes as regularly and as often as possible to the common pot on the blockchain;
 *	The monthly average of contribution of a member determines the compensation to be received in case of crop loss (property of _Machu_ blockchain);
 *	The compensation equals the monthly average contribution times the average duration between losses observed by all members of the community (property of actuarial calculation). The idea is that the luckiest (suffers less damage than usual) helps the less lucky (suffers damage earlier than usual);
 *	If a member stops contributing (for health or other unfortunate reason), the protection still continues but the average contribution becomes gradually lower and so is the compensation;
 *	The assessment of damages is done by crowd-watching using free Earth Observation data.
 
-This practice is already how rural communities do risk sharing since the dawn of time. An example of several villages participating to the _Machu_ community can be seen from the [sample McGyver web app](https://ibisa.users.earthengine.app/view/mcgyver3). In this satellite image overlaid on Google Maps, the members with fields from the villages in red will receive compensation directly from the other members, without any insurer as middleman.
+This practice is already how rural communities do risk sharing since the dawn of time. An example of 60 villages participating to the _Machu_ community can be seen from the [sample McGyver web app](https://ibisa.users.earthengine.app/view/mcgyver3). In this satellite image overlaid on Google Maps, the members with fields from the villages in red will receive compensation directly from the other members, without any insurer as middleman.
 
 ## Damage assessment by satellite story
 The story of a _Picchu_ crowd-sourced damage assessment member is the following:
