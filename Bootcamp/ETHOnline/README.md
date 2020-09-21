@@ -21,7 +21,7 @@ After the hackathon, of if we go fast enough in the hackathon, we could also
 ## Specs of the simplistic dApp
 ...
 
-## Specs of the Account Explorer
+## Specs of the Account Explorer dApp
 ...
 
 ## Specs of the Contribution dApp
@@ -30,4 +30,4 @@ After the hackathon, of if we go fast enough in the hackathon, we could also
 ## Specs of the Watcher Assessment dApp
 ...
 
-## Specs of the Compensation Calculation and payout
+## Specs of the Compensation Calculation and Payout dApp
