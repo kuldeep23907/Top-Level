@@ -19,6 +19,16 @@ After the hackathon, of if we go fast enough in the hackathon, we could also
 * start using IPFS to store voluminous and slow changing data
 
 ## Specs of the simplistic dApp
+In the simplistic dApp, we start with the 10 defults accounts created by Ganache. We associate 4 of them with 4 farmers out of 310 from Tamil Nadu. We associate the 5th with the common pot. We use ETH for transactions to simplify coding. We associate 3 more with 3 watchers. We keep the last 2 as spares.
+
+The coordinates of the 4 farmers are  (random draw)
+* _GPS lon-lat_ (TBD)
+* _GPS lon-lat_ (TBD)
+* _GPS lon-lat_ (TBD)
+* _GPS lon-lat_ (TBD)
+
+These coordinates are used to fill a dedicated McGyver Earth Observation web app that will be used for the demo by watchers
+
 ...
 
 ## Specs of the Account Explorer dApp
