@@ -24,10 +24,10 @@ After the hackathon, of if we go fast enough in the hackathon, we could also
 ## Specs of the Account Explorer
 ...
 
-## Specs of the contribution dApp
+## Specs of the Contribution dApp
 ...
 
-## Specs of the watcher assessment dApp
+## Specs of the Watcher Assessment dApp
 ...
 
-## Specs of the compensation calculation and payout
+## Specs of the Compensation Calculation and payout
