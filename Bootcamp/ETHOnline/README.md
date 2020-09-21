@@ -3,7 +3,7 @@ This sub-repo stores the project _Machu-Picchu_ limited to the hackathon "ETHOnl
 Here is the work plan I'd propose for the ETHOnline hackathon:
 * _Principle_: use the blockchain to make a distributed crop risk sharing tool, that answers the need of more than 500M farmers worldwide, need that is not satisfied until now;
 * _Use Earth Observation and blockchain_ to reduce drastically the costs, which existing insurance could not do for the past 40 years;
-* _Reuse my EO web app_ using Earth Observation data, McGyver (https://ibisa.users.earthengine.app/view/mcgyver3);
+* _Reuse my EO web app_ using Earth Observation data, as McGyver-Hack (https://ibisa.users.earthengine.app/view/mcgyver-h);
 * _Model the whole workflow_ of farmers contributing to the decentralised pot, watchers assessing the loss, calculation of the compensation, plus an account explorer;
 * _Always have something that can be shown_ at the end of every week.
 
@@ -22,12 +22,12 @@ After the hackathon, of if we go fast enough in the hackathon, we could also
 In the simplistic dApp, we start with the 10 defults accounts created by Ganache. We associate 4 of them with 4 farmers out of 310 from Tamil Nadu. We associate the 5th with the common pot. We use ETH for transactions to simplify coding. We associate 3 more with 3 watchers. We keep the last 2 as spares.
 
 The coordinates of the 4 farmers are  (random draw)
-* _GPS lon-lat_ (TBD)
-* _GPS lon-lat_ (TBD)
-* _GPS lon-lat_ (TBD)
-* _GPS lon-lat_ (TBD)
+* _GPS lon-lat_: Kongampatti (78.44255E  10.098403N)
+* _GPS lon-lat_: Eranampatti (77.2866674E 9.8735079N)
+* _GPS lon-lat_: (Saralaipatti CRC (78.287029E  10.416399N)
+* _GPS lon-lat_: Combai (77.3265196E  9.8114495N)
 
-These coordinates are used to fill a dedicated McGyver Earth Observation web app that will be used for the demo by watchers
+These coordinates are used to fill a dedicated McGyver Earth Observation web app that will be used for the demo by watchers. [DONE](https://ibisa.users.earthengine.app/view/mcgyver-h)
 
 ...
 
