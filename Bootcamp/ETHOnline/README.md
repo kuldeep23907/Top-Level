@@ -31,13 +31,13 @@ These coordinates are used to fill a dedicated McGyver Earth Observation web app
 
 ...
 
-## Specs of the Account Explorer dApp
+## User story and architecture of the Account Explorer dApp
 ...
 
-## Specs of the Contribution dApp
+## User story and architecture of the Contribution dApp
 ...
 
-## Specs of the Watcher Assessment dApp
+## User story and architecture of the Watcher Assessment dApp
 ...
 
-## Specs of the Compensation Calculation and Payout dApp
+## User story and architecture of the Compensation Calculation and Payout dApp
