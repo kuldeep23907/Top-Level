@@ -8,14 +8,14 @@ Here is the work plan I'd propose for the ETHOnline hackathon:
 * _Always have something that can be shown_ at the end of every week.
 
 ## Organisation
-* _week 0_: I'm already hacking the special Earth Observation McGyver for the hackathon, with 4 farmers only; organise the github sub-repo inside Machu-Picchu; prepare the presentation video. i'm beta tester of mmhmm (https://www.youtube.com/watch?v=c8KhKBLoSMk);
+* _week 0_: I'm already hacking the special Earth Observation McGyver for the hackathon, with 4 farmers only; organise the github sub-repo inside Machu-Picchu; prepare the presentation video. I'm beta tester of mmhmm (https://www.youtube.com/watch?v=c8KhKBLoSMk);
 * _week 1_: we hack a simplistic dApp, composed of the complete workflow. We deploy already the backend on a testnet and the frontend on IPFS [(see here: https://www.youtube.com/watch?v=ADoRVVOSpI8)](https://www.youtube.com/watch?v=ADoRVVOSpI8) to get ready;
 * _week 2 and 3_: split the dApp into 4 dApps; each of us will be primary developer on one dApp and backup on another; we progress, we sync and integrate every weekend, we keep the result on testnet and IPFS (I volunteer for that...);
 * _week 4_: no more development, we fine-tune the presentation video and we debug.
 
 After the hackathon, of if we go fast enough in the hackathon, we could also
 * change the ETH by a ERC-20 fingible token to represent the contributions and the pay-outs;
-* replace the farmers by "groups" of farmers, which is closer to the actual process. The fields of groups are assessed as a whole, which avoids the "moral hazard" where someone becomes sloppy because the solidarity will cover their bad practices;
+* replace the farmers by "groups" of farmers, which is closer to the actual process. The fields of groups are assessed as a whole, which avoids the "moral hazard" where someone does sloppy agriculture because the solidarity will cover their bad practices;
 * start using IPFS to store voluminous and slow changing data
 
 ## Specs of the simplistic dApp
