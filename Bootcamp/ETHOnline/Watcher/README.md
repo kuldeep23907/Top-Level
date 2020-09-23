@@ -1,4 +1,3 @@
-# User story - "Watcher" (Assessment) dApp
 # User Story - "Watcher" (Assessment) dApp
 ## Long-Term "Watcher" User Story
 A Watcher in _Machu-Picchu_ is anyone who participates to the crowdsourced assessment of the vegetation health of a location. In Tamil Nadu, the area to be assessed is 2 km wide. In Niger, the area is 5 km wide. The "reputation" of a watcher depends on the long-tem accuracy and on the regularity of the job done. Maintaining the reputation without any central authority is a topic for DeFi (Decentralised Finance).
