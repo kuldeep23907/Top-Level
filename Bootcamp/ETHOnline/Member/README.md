@@ -23,7 +23,9 @@ In the Hackathon, a Member is represented by the following data:
 * there is no group in the hackathon
 * 160 bit account number of the related village (used to calculte the damage compensation)
 
-In the Hackathon, there will be 4 Members who are "bootstrapped" from the 310 paying farmers in Tamil Nadu. See [Member](https://github.com/Machu-Pichu/Top-Level/tree/master/Bootcamp/ETHOnline#specs-of-the-simplistic-dapp).
+In the Hackathon, there will be 4 Members who are "bootstrapped" from the 310 paying farmers in Tamil Nadu. See [Member](https://github.com/Machu-Pichu/Top-Level/tree/master/Bootcamp/ETHOnline#specs-of-the-simplistic-dapp). Each farmer will have a "merit" based on a fake history of past contributions (like the memories of the "replicants" in _Blade Runner_)
+
+The common risk-sharing pot is also bootstrapped with a value that is consistent with the fake history of the Members.
 
 ### Functional Model
 The JavaScript form will show a list of members. Selecting a member will show the GPS coordinates.
