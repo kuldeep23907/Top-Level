@@ -9,7 +9,7 @@ The hackathon team will implement 3 dApps:
 * compensation and account explorer, used by the "enabler" and by the supervision authority
 
 The hackathon will use a single private blockchain. In the future, each dApp will use a distinct blockchain. The different blockchains will interoperate via Cosmos, or PolkaDot, or equivalent.
-* The hackathon will use ETH, depending on availmble time, we'll implement an ERC-720 token to trace the "merit" of the farmers, and an ERC-20 token to trace the "reputation" of the watchers.
+* The hackathon will use ETH. Depending on available time, we'll implement an ERC-720 token to trace the "merit" of the farmers, and an ERC-20 token to trace the "reputation" of the watchers.
 * Depending on available time, we'll implement an IPFS storage of more farmers data to prefigure the public service of farmers data.
 
 ![Image](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/20200922%20Hackathon-overall%20userstory.png)
