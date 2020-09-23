@@ -31,15 +31,14 @@ The coordinates of the 4 farmers are  (random draw)
 
 These coordinates are used to fill a dedicated McGyver Earth Observation web app that will be used for the demo by watchers. [DONE](https://ibisa.users.earthengine.app/view/mcgyver-h)
 
+# [Overall User Story](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README-2.md)
+
+
+## User story and architecture of the "farmer" (Contribution) dApp
 ...
 
-## User story and architecture of the Account Explorer dApp
+## User story and architecture of the "Watcher" (Assessment) dApp
 ...
 
-## User story and architecture of the Contribution dApp
-...
-
-## User story and architecture of the Watcher Assessment dApp
-...
-
-## User story and architecture of the Compensation Calculation and Payout dApp
+## User story and architecture of the "Enabler" dApp
+Compensation Calculation and Payout + Account Explorer dApp
