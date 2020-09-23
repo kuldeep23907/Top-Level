@@ -7,4 +7,6 @@ The hackathon team will implement 3 dApps:
 * contribution, used by the farmer or by the "enabler" (the NGO who supports the farmer) on behalf of the farmer
 * damage assessment, used by the "watcher". This dApp is supported by an Earth Observation app, already developed outside the Hackathon
 * compensation and account explorer, used by the "enabler" and by the supervision authority
+
+
 ![Image](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/20200922%20Hackathon-overall%20userstory.png)
