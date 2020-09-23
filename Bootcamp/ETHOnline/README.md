@@ -26,7 +26,7 @@ In the simplistic dApp, we start with the 10 defults accounts created by Ganache
 The coordinates of the 4 farmers are  (random draw)
 * _GPS lon-lat_: Kongampatti (78.44255E  10.098403N)
 * _GPS lon-lat_: Eranampatti (77.2866674E 9.8735079N)
-* _GPS lon-lat_: (Saralaipatti CRC (78.287029E  10.416399N)
+* _GPS lon-lat_: Saralaipatti CRC (78.287029E  10.416399N)
 * _GPS lon-lat_: Combai (77.3265196E  9.8114495N)
 
 These coordinates are used to fill a dedicated McGyver Earth Observation web app that will be used for the demo by watchers. [DONE](https://ibisa.users.earthengine.app/view/mcgyver-h)
