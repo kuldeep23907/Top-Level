@@ -15,6 +15,7 @@ In the Long-Term, a Member is represented by the following data:
 * 160 bit account number of the related village (used to calculate the damage compensation).
 
 ## Hackathon "Member" User Story
+**I'd not spend too much time on this simple dApp because the meat is in the "Enabler" dApp.**
 ### Data Model
 In the Hackathon, a Member is represented by the following data:
 * total of the Member contributions to the common pot since the Member is registered
