@@ -1,4 +1,4 @@
-# User Story - "Enabler" (Contribution) dApp
+# User Story - "Enabler" (Compensation) dApp
 ## Long-Term "Enabler" User Story
 This dApp is a catch-all dApp: it covers both the roles of an "Enabler", typically an NGO who helps the famers, and a Supervision Authority, who wants only an Account Explorer to make sure that the risk-sharing process works as advertised. 
 
