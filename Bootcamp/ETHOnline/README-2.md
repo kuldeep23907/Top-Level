@@ -16,4 +16,4 @@ Else these bonuses will be part of the larger development plan of _Machu-Picchu_
 
 ![Image](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/20200922%20Hackathon-overall%20userstory.png)
 
-## [Back to the root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
+## [Back to the Hackathon root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
