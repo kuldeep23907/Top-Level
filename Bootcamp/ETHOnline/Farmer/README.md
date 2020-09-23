@@ -33,4 +33,4 @@ The other data are displayed but not editable.
 There is a field to enter the contribution, in ETH (we'll do the token version if we have time)
 
 ### Calculation of Merit
-The Merit of a Member is the running monthly average contribution of the Member to the pot.
+The Merit of a Member is the running monthly average contribution of the Member to the pot. [See example here](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Farmer/20200923%20Example%20Merit.xlsx)
