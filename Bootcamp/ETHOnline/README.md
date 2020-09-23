@@ -34,7 +34,7 @@ These coordinates are used to fill a dedicated McGyver Earth Observation web app
 # [Overall User Story](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README-2.md)
 
 
-# [User Story and Architecture of the "Farmer" (Contribution) dApp](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Farmer/README.md)
+# [User Story and Architecture of the "Member" (Contribution) dApp](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Member/README.md)
 
 
 # [User story and architecture of the "Watcher" (Assessment) dApp](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Watcher/README.md)
