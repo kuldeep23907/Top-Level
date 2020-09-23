@@ -11,3 +11,5 @@ The hackathon team will implement 3 dApps:
 The hackathon will use a single private blockchain; In the future, each dApp will use a distinct blockchain. The different blockchains will interoperate via Cosmos, or PolkaDot, or equivalent.
 
 ![Image](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/20200922%20Hackathon-overall%20userstory.png)
+
+[Back to the root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
