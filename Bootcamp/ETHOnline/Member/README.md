@@ -36,3 +36,5 @@ There is a field to enter the contribution of the month, in ETH (we'll do the to
 The Merit of a Member is the running monthly average contribution of the Member to the pot. [See example here](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Farmer/20200923%20Example%20Merit.xlsx).
 
 _Suggestion: maybe the average should be limited to a sliding window, so that the merit decays in time. The law of decay will be defined later, after the hackathon, and after discussion with the true field actors._
+
+## [Back to the Hackathon root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
