@@ -7,6 +7,8 @@ A Watcher in _Machu-Picchu_ is anyone who participates to the crowdsourced asses
 
 In Tamil Nadu, the area to be assessed is 2 km wide covering up to several hundred fields. In Niger, the area is 5 km wide. The "reputation" of a watcher depends on the long-tem accuracy and on the regularity of the job done. Maintaining the reputation without any central authority is a topic for DeFi (Decentralised Finance).
 
+In _Machu-Picchu_ a Watcher can be a chief of village or an independent Watcher. If the Watcher is a chief of village, the reputation of this watcher is taken into account as a bonus to calculate the damage compensation to the related village.
+
 A Watcher needs to stake a certain amount of tokens in order to perform a loss assessment on a location. At the end of the month, all assessments are merged and a common result is decided on. The stakes are then refunded, plus or minus an amount depending on the performance of the Watcher. The closer (resp. farther) is the assessment from the result of the whole community, the higher the reputation tokens earned (resp. lost).
 
 Like the Member, the Watcher owns this personal data in the sense of GDPR's "data controller". The Watcher can invalidate all or part of it or rewrite it.
@@ -15,6 +17,7 @@ Like the Member, the Watcher owns this personal data in the sense of GDPR's "dat
 In the Long-term, a Watcher is represented by the following personal data:
 * number of reputation token owned
 * number of reputation tokens staked for the month
+* 160 bits account number of the related village (chief of village) or nil
 
 For each assessment the following data is kept for a Watcher
 * Month of assessment
