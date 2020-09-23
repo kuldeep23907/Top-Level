@@ -2,7 +2,7 @@
 This sub-repo stores the project _Machu-Picchu_ limited to the hackathon "ETHOnline 2020".
 ## Organisation
 Here is the work plan I'd propose for the ETHOnline hackathon:
-* _Principle_: use the blockchain to make a distributed crop risk sharing tool, that answers the need of more than 500M farmers worldwide, need that is not satisfied until now;
+* _Principle_: use the blockchain to make a distributed crop risk sharing tool, that answers the need of more than 500M farmers worldwide, need that is not satisfied until now by existing insurances;
 * _Use Earth Observation and blockchain_ to reduce drastically the costs, which existing insurance could not do for the past 40 years;
 * _Reuse my EO web app_ using Earth Observation data, as McGyver-Hack (https://ibisa.users.earthengine.app/view/mcgyver-h);
 * _Model the whole workflow_ of farmers contributing to the decentralised pot, watchers assessing the loss, calculation of the compensation, plus an account explorer;
