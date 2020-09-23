@@ -41,4 +41,4 @@ These coordinates are used to fill a dedicated McGyver Earth Observation web app
 ...
 
 ## User story and architecture of the "Enabler" dApp
-Compensation Calculation and Payout + Account Explorer dApp
+This one is the Compensation Calculation and Payout as well as Account Explorer dApp
