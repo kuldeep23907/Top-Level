@@ -13,11 +13,14 @@ The Enabler owns this personal data in the sense of GDPR's "data controller". Th
 ## Hackathon "Enabler" User Story
 ### Data Model
 In the Hackathon, a Enabler is represented by the following data:
-* total of the Member contributions to the common pot since the Member is registered
+* _TBD_
 
 ### Functional Model
 _(to be refined)_
-* when all Watchers have committed, a singleton Smart Contract is triggered and calculates the average damage assessment for each farmer (for each group of farmers in the true _Machu-Picchu_)
-* the average damage assessment is a weighted sum of all Watchers assessments, weighhted by the stakes and the reputations
+* when all Watchers have committed, a singleton Smart Contract is triggered and calculates the average damage assessment for each Member (in the true _Machu-Picchu_, this is done for each group of farmers instead of for single farmers)
+* the average damage assessment of a Member (resp. group) is a weighted sum of all Watchers assessments, weighted by the stakes and the reputations.
+* the compensation for a Member is a function of the loss, the individual "merit" and the "reputation" of the chief of village
+* the common pot is triggered to transfer the amount to the account of the Member
+* the Account Explorer shows the history of balance of each Member.
 
 ## [Back to the Hackathon root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
