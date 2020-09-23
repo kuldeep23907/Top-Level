@@ -1,6 +1,6 @@
 # User Story - "Watcher" (Assessment) dApp
 ## Long-Term "Watcher" User Story
-A Watcher in _Machu-Picchu_ is anyone who participates to the crowdsourced assessment of the vegetation health of a location. Loss Assessment is done by "group" of fields forming an area of interest instead of being done individually per farmer.
+A Watcher in _Machu-Picchu_ is anyone who participates to the crowdsourced assessment of the vegetation health of a location. Loss Assessment is done by "group" of fields forming an area of interest instead of being done individually per farmer. The reasons of this grouping are:
 1. Weather conditions of closely neighbouring fields are very correlated
 2. Assessing several farmers at a same time leverages the work of a Watcher.
 3. Assessing several farmers together enhances the spirit of solidarity and reduces the "moral" risk of bad practice when being insured: a "bad" farmer surrounded by well performing neighbours will not be compensated even if his/her field is not well cultivated.
