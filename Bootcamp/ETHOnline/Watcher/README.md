@@ -38,4 +38,6 @@ The Watcher may select a month of assessment. Then it is possible enter the dama
 
 _Question: can the Watcher commit the assessment is there is still one location not assessed?_ I'd say yes.
 
+In the Hackathon, when all watchers have committed their assessments, the campaign of th emonth is considered "closed" and the calculation of damage compensation may start.
+
 ## [Back to the Hackathon root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
