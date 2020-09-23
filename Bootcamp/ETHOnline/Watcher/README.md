@@ -3,7 +3,7 @@
 A Watcher in _Machu-Picchu_ is anyone who participates to the crowdsourced assessment of the vegetation health of a location. Loss Assessment is done by "group" of fields forming an area of interest instead of being done individually per farmer.
 1. Weather conditions of closely neighbouring fields are very correlated
 2. Assessing several farmers at a same time leverages the work of a Watcher.
-3. Assessing several farmers together enhances the spirit of solidarity and reduces the "moral" risk of bad practice when being insured
+3. Assessing several farmers together enhances the spirit of solidarity and reduces the "moral" risk of bad practice when being insured: a "bad" farmer surrounded by well performing neighbours will not be compensated even if his/her field is not well cultivated.
 
 In Tamil Nadu, the area to be assessed is 2 km wide covering up to several hundred fields. In Niger, the area is 5 km wide. The "reputation" of a watcher depends on the long-tem accuracy and on the regularity of the job done. Maintaining the reputation without any central authority is a topic for DeFi (Decentralised Finance).
 
