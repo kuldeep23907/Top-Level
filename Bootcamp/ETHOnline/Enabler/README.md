@@ -10,3 +10,5 @@ The Enabler owns this personal data in the sense of GDPR's "data controller". Th
 ### Data Model
 In the Hackathon, a Member is represented by the following data:
 * total of the Member contributions to the common pot since the Member is registered
+
+## [Back to the Hackathon root README](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/README.md)
