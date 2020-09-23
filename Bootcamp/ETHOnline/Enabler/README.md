@@ -1,6 +1,6 @@
 # User Story - "Enabler" (Contribution) dApp
 ## Long-Term "Enabler" User Story
-This dApp is a catch-all dApp: it covers both the roles of an "Enabler", typically an NGO who helps the famers, and supervision authority, who wants only an Account Explorer to make sure that the risk-sharing process works as advertised. 
+This dApp is a catch-all dApp: it covers both the roles of an "Enabler", typically an NGO who helps the famers, and a Supervision Authority, who wants only an Account Explorer to make sure that the risk-sharing process works as advertised. 
 
 An Enabler in _Machu-Picchu_ is any entity that interacts with the Members to help them. It can be an NGO (Non Governmental Organisation), a MFI (Micro-Finance Institute), a cooperative, a government development agency, a vendor of inputs (seeds, fertizers) or an international food company who buys the crop. Most often, the Enabler has its own ERM (Enterprise Resource Management) software. The latter can be centralised or can be itself based on the blockchain.
 
