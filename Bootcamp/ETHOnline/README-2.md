@@ -8,6 +8,6 @@ The hackathon team will implement 3 dApps:
 * damage assessment, used by the "watcher". This dApp is supported by an Earth Observation app, already developed outside the Hackathon
 * compensation and account explorer, used by the "enabler" and by the supervision authority
 
-The hackathon will use a single private blockchain; In the future, each dApp will use a distinct blockchain. The blockchians will interoperate via Cosmos, or PolkaDot, or equivalent.
+The hackathon will use a single private blockchain; In the future, each dApp will use a distinct blockchain. The different blockchains will interoperate via Cosmos, or PolkaDot, or equivalent.
 
 ![Image](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/20200922%20Hackathon-overall%20userstory.png)
