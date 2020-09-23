@@ -16,7 +16,7 @@ Here is the work plan I'd propose for the ETHOnline hackathon:
 * _week 3_: no more development, we fine-tune the presentation video and we debug.
 
 After the hackathon, of if we go fast enough in the hackathon, we could also
-* change the ETH by a ERC-20 fingible token to represent the contributions and the pay-outs;
+* change the ETH by a ERC-20 fungible token to represent the contributions and the pay-outs;
 * replace the farmers by "groups" of farmers, which is closer to the actual process. The fields of groups are assessed as a whole, which avoids the "moral hazard" where someone does sloppy agriculture because the solidarity will cover their bad practices;
 * start using IPFS to store voluminous and slow changing data.
 
