@@ -40,5 +40,5 @@ These coordinates are used to fill a dedicated McGyver Earth Observation web app
 # [User story and architecture of the "Watcher" (Assessment) dApp](https://github.com/Machu-Pichu/Top-Level/blob/master/Bootcamp/ETHOnline/Watcher/README.md)
 ...
 
-## User story and architecture of the "Enabler" dApp
+# [User story and architecture of the "Enabler" dApp](https://github.com/Machu-Pichu/Top-Level/tree/master/Bootcamp/ETHOnline/Enabler)
 This one is the Compensation Calculation and Payout as well as Account Explorer dApp
